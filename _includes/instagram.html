@@ -1,0 +1,6 @@
+{% if site.data.settings.instafeed == true %}
+  <div class="instagram-box">
+    <a href="https://www.instagram.com/{{ site.data.settings.instagram-profile }}" target="_blank" class="istagram-contact"><i class="ion ion-logo-instagram"></i> {{ site.data.settings.instagram-profile }}</a>
+    <ul id="instafeed" class="instagram list-reset"></ul>
+  </div>
+{% endif %}

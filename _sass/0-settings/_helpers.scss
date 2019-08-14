@@ -1,0 +1,89 @@
+// Text Alignment
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+
+// Display
+.block {
+	display: block;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.inline {
+	display: inline;
+}
+
+
+// Vertical Center
+.vertical-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+// Display State
+.show {
+	display: block;
+}
+
+.hide {
+	display: none;
+}
+
+.invisible {
+	visibility: hidden;
+}
+
+
+// Floats
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+
+// Padding
+.no-padding {
+	padding: 0;
+}
+
+
+// Margins
+.no-margin {
+	margin: 0;
+}
+
+// Lists Reset
+.list-reset {
+	@include list-reset();
+}
+
+// Clearfix
+.clearfix {
+  @include clearfix();
+}
+
+// Screen Reader
+.screen-reader-text {
+	@include screen-reader();
+}

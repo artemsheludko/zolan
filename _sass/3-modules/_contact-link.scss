@@ -1,0 +1,16 @@
+.contact {
+  .contact__list {
+    li {
+      margin-left: 15px;
+      display: inline-block;
+
+      a {
+        font-size: 18px;
+        color: $gray;
+        &:hover {
+          color: $dark;
+        }
+      }
+    }
+  }
+}

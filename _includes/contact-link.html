@@ -1,0 +1,23 @@
+<div class="contact">
+  <ul class="contact__list list-reset">
+    {% if site.data.settings.twitter %}
+      <li><a href="{{ site.data.settings.twitter }}"><i class="ion ion-logo-twitter"></i></a></li>
+    {% else %} {% endif %}
+
+    {% if site.data.settings.facebook %}
+      <li><a href="{{ site.data.settings.facebook }}"><i class="ion ion-logo-facebook"></i></a></li>
+    {% else %} {% endif %}
+  
+    {% if site.data.settings.dribbble %}
+      <li><a href="{{ site.data.settings.dribbble }}"><i class="ion ion-logo-dribbble"></i></a></li>
+    {% else %} {% endif %}
+  
+    {% if site.data.settings.instagram %}
+      <li><a href="{{ site.data.settings.instagram }}"><i class="ion ion-logo-instagram"></i></a></li>
+    {% else %} {% endif %}
+  
+    {% if site.data.settings.pinterest %}
+      <li><a href="{{ site.data.settings.pinterest }}"><i class="ion ion-logo-pinterest"></i></a></li>
+    {% else %} {% endif %}
+  </ul>
+</div>

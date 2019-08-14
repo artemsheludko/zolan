@@ -1,0 +1,47 @@
+.instagram-box {
+  position: relative;
+  margin: 0 0 80px;
+
+  .istagram-contact {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    display: block;
+    padding: 8px 15px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    border-radius: 3px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    color: $dark;
+    background: $white;
+    &:hover {
+      color: $black;
+    }
+  }
+  
+  .instagram {
+    .instagram-item {
+      width: 16.6%;
+      display: inline-block;
+      transition: all .35s;
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+  }
+
+  @media only screen and (max-width: $tablet) {
+    .instagram {
+      
+      .instagram-item {
+        width: 33.3%;
+      }
+    }
+  }
+
+  @media only screen and (max-width: $mobile) {
+    margin: 0 0 40px;
+  }
+}

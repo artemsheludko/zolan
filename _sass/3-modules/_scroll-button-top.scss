@@ -1,0 +1,32 @@
+.top {
+  position: fixed;
+  bottom: 40px;
+  right: -100px;
+	z-index: 1;
+	width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+	background-color: $dark;
+	color: $white;
+	cursor: pointer;
+	transition: all .25s ease;
+  
+  &.is-active {
+    right: 40px;
+  }
+
+  &:hover {
+    background-color: $black;
+  }
+
+}
+
+@media only screen and (max-width: $tablet) {
+  .top {
+    bottom: 25px;
+    &.is-active {
+      right: 30px;
+    }
+  }
+}

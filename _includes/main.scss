@@ -1,0 +1,120 @@
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+:: Template name: Zolan
+:: Description: 
+:: Template Author: Artem Sheludko
+:: Version: 1.0
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>
+:: 1 Tools and Libs
+    1.1 Normalize
+    1.2 Reset
+    1.3 Shared
+    1.4 Syntax Highlighting
+    1.5 Grid
+    1.6 Zoom
+    1.7 Ionicons
+
+:: 2 Base Styles
+    2.1 Base
+
+:: 3 Modules
+    3.1 Scroll Button Top
+    3.2 Header
+    3.3 Hero
+    3.4 Search
+    3.5 Contact Link
+    3.6 Pagination
+    3.7 Subscribe
+    3.8 Instagram
+    3.9 Footer
+    
+:: 4-Layouts
+    4.1 Page-home
+    4.2 Page
+    4.3 Article
+    4.4 Post
+    4.5 Tag Page
+<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+@import '0-settings/variables';
+@import '0-settings/mixins';
+@import '0-settings/helpers';
+
+
+/* >>>>>>>>>>>>>> :: 1-Tools and Libs <<<<<<<<<<<<<<< */
+
+// 1.1 Normalize
+@import '1-tools/normalize';
+
+// 1.2 Reset
+@import '1-tools/reset';
+
+// 1.3 Shared
+@import '1-tools/shared';
+
+// 1.4 Syntax Highlighting
+@import '1-tools/syntax-highlighting';
+
+// 1.5 Grid
+@import '1-tools/grid';
+
+// 1.6 Zoom
+@import '1-tools/zoom';
+
+// 1.7 Ionicons
+@import '1-tools/ionicons';
+
+
+/* >>>>>>>>>>>>>> :: 2-Base Styles <<<<<<<<<<<<<<< */
+
+// 2.1 Base
+@import '2-base/base';
+
+
+/* >>>>>>>>>>>>>> :: 3-Modules <<<<<<<<<<<<<<< */
+
+// 3.1 Scroll Button Top
+@import '3-modules/scroll-button-top';
+
+// 3.2 Header
+@import '3-modules/header';
+
+// 3.3 Hero
+@import '3-modules/hero';
+
+// 3.4 Search
+@import '3-modules/search';
+
+// 3.5 Contact Link
+@import '3-modules/contact-link';
+
+// 3.6 Pagination
+@import '3-modules/pagination';
+
+// 3.7 Subscribe
+@import '3-modules/subscribe';
+
+// 3.8 Instagram
+@import '3-modules/instagram';
+
+// 3.9 Instagram
+@import '3-modules/footer';
+
+/* >>>>>>>>>>>>>> :: 4-Layouts <<<<<<<<<<<<<<< */
+
+// 4.1 Page-home
+@import '4-layouts/page-home';
+
+// 4.2 Page
+@import '4-layouts/page';
+
+// 4.3 Article
+@import '4-layouts/article';
+
+// 4.4 Post
+@import '4-layouts/post';
+
+// 4.5 Tag Page
+@import '4-layouts/tag-page';

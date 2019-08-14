@@ -1,0 +1,154 @@
+.header {
+  position: relative;
+  height: 100px;
+
+  .header__overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgba(17,17,17,0.7);
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease;
+    
+    @media only screen and (max-width: $desktop) {
+      &.is-visible {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  }
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  
+  .logo__link {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: $dark;
+    text-decoration: none;
+    &:hover {
+      color: $black;
+    }
+  }
+  
+  .logo__image {
+    max-height: 50px;
+  }
+}
+
+.main-nav {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  .nav-icon__close {
+    display: none;
+    font-size: 24px;
+    text-align: right;
+    cursor: pointer;
+    &:hover {
+      color: $black;
+    }
+  }
+
+  .nav__title {
+    display: none;
+  }
+
+  .nav__list {
+    white-space: nowrap;
+    
+    .nav__item {
+      display: inline-block;
+
+      .nav__link {
+        display: inline-block;
+        padding: 10px 30px;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        color: $dark;
+        &:hover {
+          color: $black;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: $desktop) {
+    position: fixed;
+    top: 0;
+    left: inherit;
+    right: -300px;
+    bottom: 0;
+    transform: none;
+    z-index: 100;
+    width: 300px;
+    height: 100vh;
+    padding: 40px 30px 30px;
+    transition: right 0.5s cubic-bezier(0.7, 0.4, 0, 1);
+    background: $white;
+    &.is-open {
+      right: 0;
+    }
+
+    .nav-icon__close {
+      display: block;
+    }
+
+    .nav__title {
+      display: block;
+      padding-left: 30px;
+      padding-bottom: 7px;
+      margin-bottom: 10px;
+      color: $gray;
+      border-bottom: 1px solid $light-gray;
+    }
+
+    .nav__list {
+      .nav__item {
+        display: block;
+      }
+    }
+  }
+}
+
+.nav-buttons {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  font-size: 21px;
+  
+  .nav__icon {
+    color: $dark;
+    cursor: pointer;
+    &:hover {
+      color: $black;
+    }
+  }
+  
+  .nav__icon-menu {
+    display: none;
+    margin-right: 10px;
+    &:hover {
+      color: $black;
+    }
+    
+    @media only screen and (max-width: $desktop) {
+      display: inline-block;
+    }
+  }
+}
