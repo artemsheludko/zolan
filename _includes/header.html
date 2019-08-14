@@ -25,7 +25,7 @@
 
             <ul class="nav__list list-reset">
               <li class="nav__item">
-                <a href="/" class="nav__link">Home</a>
+                <a href="{{site.baseurl}}/" class="nav__link">Home</a>
               </li>
               {% for page in site.pages %}
                 {% unless page.name == 'tags.html' or page.name == '404.html' %}
