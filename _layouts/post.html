@@ -86,7 +86,7 @@ layout: default
   <div class="post__navigation">
     {% if page.previous.url %}
     <div class="prev">
-      <a class="post__nav__image" href="{{page.previous.url}}" style="background-image: url({{site.baseurl}}/images/{{page.previous.image}})"></a>
+      <a class="post__nav__image" href="{{ site.baseurl }}{{page.previous.url}}" style="background-image: url({{site.baseurl}}/images/{{page.previous.image}})"></a>
       <h2 class="post__nav__title">
         <i class="ion ion-md-arrow-back"></i>
         <a href="{{page.previous.url}}">{{page.previous.title}}</a>
@@ -100,10 +100,10 @@ layout: default
       </p>
     </div>
     {% endif %}
-    
+
     {% if page.next.url %}
     <div class="next">
-      <a class="post__nav__image" href="{{page.next.url}}" style="background-image: url({{site.baseurl}}/images/{{page.next.image}})">
+      <a class="post__nav__image" href="{{ site.baseurl }}{{page.next.url}}" style="background-image: url({{site.baseurl}}/images/{{page.next.image}})">
       </a>
       <h2 class="post__nav__title">
         <a href="{{page.next.url}}">{{page.next.title}}</a>
