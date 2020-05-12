@@ -46,7 +46,7 @@ Table of Contents
 
 ### Demo
 
-Check the theme in action [Demo](https://artemsheludko.github.io/zolan/)
+Check the theme in action [Demo](https://zolan-jekyll.netlify.app/)
 
 ![Main page preview](https://github.com/artemsheludko/zolan/blob/master/images/zolan-main-page.png?raw=true)
 
