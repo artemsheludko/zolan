@@ -5,9 +5,9 @@
       {% if paginator.previous_page %}
       
       {% if paginator.previous_page == 1 %}
-        <a class="previous-link" href="/">Prev Posts</a>
+        <a class="previous-link" href="{{ site.baseurl }}/">Prev Posts</a>
       {% else %}
-        <a class="previous-link" href="/page/{{ paginator.previous_page }}/">Prev Posts</a>
+        <a class="previous-link" href="{{ site.baseurl }}/page/{{ paginator.previous_page }}/">Prev Posts</a>
       {% endif %}
       
       {% else %}
@@ -18,7 +18,7 @@
         {% if paginator.page == 1 %}
           <span class="active-link">1</span>
         {% else %}
-          <a href="/">1</a>
+          <a href="{{ site.baseurl }}/">1</a>
         {% endif %}
 
 
@@ -27,7 +27,7 @@
         {% if count == paginator.page %}
           <span class="active-link">{{ count }}</span>
         {% else %}
-          <a class="count-number" href="/page/{{ count }}/">{{ count }}</a>
+          <a class="count-number" href="{{ site.baseurl }}/page/{{ count }}/">{{ count }}</a>
         {% endif %}
         {% endfor %}
       </div>
