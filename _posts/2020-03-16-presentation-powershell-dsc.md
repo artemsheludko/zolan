@@ -2,13 +2,8 @@
 layout: post
 comments: true
 title: Présentation de Powershell DSC
-<<<<<<< Updated upstream
-tags: [Powershell, DevOps]
-=======
-description: Article de presentation de powershell DSC, l'outils MS pour les devops
 tags: [powershell, devOps]
->>>>>>> Stashed changes
-image:  /post/2019/01/presentation-powershell-dsc.png
+image: /post/2019/01/presentation-powershell-dsc.png
 ---
 
 Et voilà, je suis **tombé en amour**, comme le disent nos amis francophones d'outre-Atlantique... Et quand on "tombe en amour" et bien on a tout simplement envie d'en parler.
