@@ -7,7 +7,7 @@ image: 01.jpg
 
 Hello, mon nom est Matthieu PETITE
 
-Architecte .Net et spécialiste Dev / OPS, passionné des technologies de cloud computing et des nouvelles approches du développement d'application. Mon terrain de jeu favori est la refonte des grands systèmes d'informations où les choix technologiques, les méthodologies et les besoins en ROI sont structurants pour le métier du client.
+Architecte .Net et spécialiste Dev / OPS, passionné des technologies de cloud computing et des nouvelles approches du développement d'application. Mon terrain de jeu favori est la refonte des grands systèmes d'information où les choix technologiques, les méthodologies et les besoins en ROI sont structurants pour le métier du client.
 
 ***
 
@@ -16,11 +16,11 @@ Architecte .Net et spécialiste Dev / OPS, passionné des technologies de cloud 
 
 En tant que Team Leader et Architecte de la Squad Industrialisation et rehosting, je suis en charge de définir le mode de déploiement de la baseline du produit Skyview dans une infrastructure Kubernetes.
 
-Le principal enjeu du projet et d’assurer le rehosting d’une dizaine d’applications legacy C++/Java en intégrant les problématiques de sécurité, safety, supervision dans une démarche full dev/ops. La cible étant la containerisation, toutes les applications sont retravaillées pour les rendre compatible avec le nouveau mode d’hébergement.
+Le principal enjeu du projet et d’assurer le rehosting d’une dizaine d’applications legacy C++/Java en intégrant les problématiques de sécurité, safety, supervision dans une démarche full dev/ops. La cible étant la containerisation, toutes les applications sont retravaillées pour les rendre compatibles avec le nouveau mode d’hébergement.
 
-Parallèlement au travaux de rehosting, la squad Industrialisation et rehosting a la charge d’assurer la mise en place du processus dev/ops pour assurer la migration vers Kubernetes. Les outils utilisés sont Ansible, Helm, Bazel principalement le tout orchestré dans une forge Jenkins.
+Parallèlement aux travaux de rehosting, la squad Industrialisation et rehosting a la charge d’assurer la mise en place du processus dev/ops pour assurer la migration vers Kubernetes. Les outils utilisés sont Ansible, Helm, Bazel principalement le tout orchestré dans une forge Jenkins.
 
-Environnements tehcniques et méthodologique
+Environnements techniques et méthodologiques
 
 1. Docker, Helm, Ansible
 2. Rancher, K3s, Kind, Kubernetes,
@@ -37,7 +37,7 @@ ans le cadre d'un développement de produit pour le monde de l'horlogerie, je su
 
 La forge livrée contient donc l'ensemble des builds applicatives et des builds liées à l'IaC, ainsi que les release pipeline pour déployer, dans le monde entier, les clusters K8s derrière un Azure Traffic Manager.
 
-La forge est construite de tel sorte que l’ensemble des plateformes (dev, integration, UAT,…) soient construite automatiquement, en injectant par paramétrage, les différents besoins en termes de topologie.
+La forge est construite de telle sorte que l’ensemble des plateformes (dev, integration, UAT,…) soient construites automatiquement, en injectant par paramétrage, les différents besoins en termes de topologie.
 
 La prestation a couvert en amont la définition de l'infrastructure Azure, mais aussi la sélection du mode de gestion des clusters K8s au sein de la forge. J'ai donc opté pour l'usage de Chart Helm afin de faciliter les déploiements.
 
@@ -66,7 +66,7 @@ Le projet consiste à :
 1. Mettre les équipes de développement en mode Continuous Delivery
 2. Déployer l'infrastructure IaaS / PaaS en mode IaaC (Infrastructure as a Code)
 3. Déployer les middleware sur les serveurs IaaS
-4. Construire les release pipeline applicatifs
+4. Construire les releases pipeline applicatifs
 
 Environnements techniques et méthodologiques:
 
@@ -102,11 +102,11 @@ Environnements techniques et méthodologiques
 
 <small>2011 - 2015</small>
 
-Afin de valider ma double compétence en Management, j'ai fait le choix de m'orienter vers une activité d'avant-vente en intégrant l'équipe des business developer d'OAB.
+Afin de valider ma double compétence en Management, j'ai fait le choix de m'orienter vers une activité d'avant-vente en intégrant l'équipe des business développée d'OAB.
 
 Au sein de cette équipe, mon activité consistait principalement à réaliser les réponses à appel d'offres pour nos clients et prospects (marché public et/ou privé). Mon domaine d'intervention était principalement orienté autour des technologies Microsoft pour des projets de développement au forfait, mais aussi des solutions de portail telles que Drupal, EzPublish et WordPress.
 
-L'activité d'avant ventre regroupe les activités : d’identification des solutions techniques, de construction des dossiers de réponse (Technique et Financière), d'animation de l'équipe de réponse, de bid management et de soutenance client. Dans le cadre de cette activité je suis chargé de définir les solutions technologiques, leurs coûts, les méthodologies de projet à mettre en œuvre, la partie financière et commerciale de la proposition dans le respect des contrainte de l'entreprise.
+L'activité d'avant ventre regroupe les activités : d’identification des solutions techniques, de construction des dossiers de réponse (Technique et Financière), d'animation de l'équipe de réponse, de bid management et de soutenance client. Dans le cadre de cette activité, je suis chargé de définir les solutions technologiques, leurs coûts, les méthodologies de projet à mettre en œuvre, la partie financière et commerciale de la proposition dans le respect des contraintes de l'entreprise.
 
 Partant d'un portefeuille quasi nul en 2011, je gère, à fin 2015, environ 4M € de facturation / an avec une marge brute de 22%.
 
@@ -114,13 +114,13 @@ Partant d'un portefeuille quasi nul en 2011, je gère, à fin 2015, environ 4M �
 
 <small>2011 - 2015</small>
 
-Au sein des équipes de développement logiciels de la division Application Digitale d'Orange Applications For Business, je suis en charge de la réalisation des projets Microsoft pour le compte de nos clients.
+Au sein des équipes de développement logiciel de la division Application Digitale d'Orange Applications For Business, je suis en charge de la réalisation des projets Microsoft pour le compte de nos clients.
 
 Mon intervention, quasi exclusivement en mode engagement de résultat, si elle se contenait dans un premier temps aux activités de développement, à rapidement évolué vers une position de leader technique.
 
 Responsable technique des projets, mon rôle consiste à assurer la qualité du délivry d'une part tout en respectant les impératifs de coût/qualité/délais. Responsable de l'équipe de développement d'un point de vue technique, je suis en charge d'animer l'expertise technique, de valider techniquement les candidats à l'embauche, et à suivre les stagiaires.
 
-Au sein de la direction technique, je suis amené à travailler sur les processus de développement logicielle et je participe au déploiement de la Forge Logicielle Team Foundation Serveur au sein de l'entreprise.
+Au sein de la direction technique, je suis amené à travailler sur les processus de développement logiciel et je participe au déploiement de la Forge logicielle Team Foundation Serveur au sein de l'entreprise.
 
 Environnements techniques et méthodologiques
 
@@ -146,7 +146,7 @@ Environnements techniques et méthodologiques:
 
 <small>2007</small>
 
-Dans le cadre du déploiement de l'offre Vidéo à la demande au sein de la société numéricable, j'ai été amené à déployer la plateforme VOD de la société Quative basée à Londres.
+Dans le cadre du déploiement de l'offre vidéo à la demande au sein de la société Numericable, j'ai été amené à déployer la plateforme VOD de la société Quative basée à Londres.
 Mon rôle, outre la gestion quotidienne de la plateforme, était de m'assurer que l'intégration avec l'ensemble des partenaires était conforme avec les spécifications techniques. Gestion des contenus, gestion des flux vidéos (serveurs rtsp et de stockage), gestion des utilisateurs et gestion de la facturation sont quelques exemples des briques fonctionnelles dont j'avais la responsabilité.
 En outre la mission était basée entre Paris et Londres et donc la langue de travail était l'anglais
 
