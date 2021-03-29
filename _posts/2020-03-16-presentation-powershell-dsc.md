@@ -2,7 +2,12 @@
 layout: post
 comments: true
 title: Présentation de Powershell DSC
+<<<<<<< Updated upstream
 tags: [Powershell, DevOps]
+=======
+description: Article de presentation de powershell DSC, l'outils MS pour les devops
+tags: [powershell, devOps]
+>>>>>>> Stashed changes
 image:  /post/2019/01/presentation-powershell-dsc.png
 ---
 
