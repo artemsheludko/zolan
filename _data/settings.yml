@@ -1,7 +1,7 @@
 #-------------------------------
 # General Site Settings
 title: Matthieu Petite
-logo: logo.svg # You can add own logo.
+logo: logo2.png # You can add own logo.
 description: Bienvenu sur mon blog Tech, Cloud, et DevOps
 
 
@@ -11,7 +11,7 @@ author:
   name: Matthieu Petite
   image: 01.jpg
   say-hello: Bonjour, je suis <strong>Matthieu Petite</strong>
-  bio: Techno, Tips, et articles à propos du <strong>Cloud</strong>, <strong>Container</strong>, <strong>Microsoft</strong>, et du dev. Je partage des tutos, des ressources et mes idées. J'adore la <a href="#">grimpe</a>, le kite, et les bière bien sûr.
+  bio: Techno, Tips, et articles à propos du <strong>Cloud</strong>, <strong>Container</strong>, <strong>Microsoft</strong>, et du dev. Je partage des tutos, des ressources et mes idées. J'adore la <a href="#">grimpe</a>, le <a href="#">kite</a>, et les bières entre amis .
 
 
 #-------------------------------
