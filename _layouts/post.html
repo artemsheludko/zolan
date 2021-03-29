@@ -32,9 +32,6 @@ layout: default
   {% assign no-image = nil %}
   {% if page.image %}
     <div class="post__head">
-      <img style="display:none"
-           src="{{ site.baseurl }}/images/{{ page.image }}"
-           alt="{{ page.title }}">
       <div class="post-image" style="background-image: url({{site.baseurl}}/images/{{page.image}})"></div>
     </div>
   {% else %}

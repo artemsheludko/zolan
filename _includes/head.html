@@ -7,7 +7,10 @@
   <meta name='description' content='{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.data.settings.description }}{% endif %}'>
   <meta property='og:title' content='{{ page.title }}'/>
   <meta property='og:image' content='https://matthieupetite.github.io/{{ page.image }}'/>
+  <meta property="og:site_name" content="Matthieu Petite Blog">
   <meta property='og:description' content='{{ page.description }}'/>
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
