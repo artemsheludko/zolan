@@ -6,7 +6,7 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.data.settings.title }}{% endif %}</title>
   <meta name='description' content='{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.data.settings.description }}{% endif %}'>
   <meta property='og:title' content='{{ page.title }}'/>
-  <meta property='og:image' content='{{ page.image }}'/>
+  <meta property='og:image' content='https://matthieupetite.github.io/{{ page.image }}'/>
   <meta property='og:description' content='{{ page.description }}'/>
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
