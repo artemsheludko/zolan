@@ -2,7 +2,6 @@
 layout: post
 comments: true
 title: Helm, Kubernetes, et les systèmes de fichier multiniveau
-description: Creer un système de fichier complexe via Helm pour vos pods
 tags: [Kubernetes, Docker]
 image: /post/2020/03/2020-03-18-helm-filesystem-multin-niveau.png
 ---
