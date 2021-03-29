@@ -1,26 +1,164 @@
 ---
 layout: page
-title: About
+title: A propos
 permalink: /about/
 image: 01.jpg
 ---
 
-Hi, my name is Alex Rodriguez. I like being at the center of events, being free and enjoying every moment. Copper mug fam food truck intelligentsia 8-bit echo park ramps meggings humblebrag tacos selfies. Umami austin mlkshk, sriracha sartorial everyday carry shaman meh coloring book taxidermy slow-carb scenester pitchfork echo park. Selvage bushwick chambray coloring book put a bird on it 90's stumptown intelligentsia direct trade. Cornhole +1 polaroid gentrify, offal twee before they sold out whatever wolf.
+Hello, mon nom est Matthieu PETITE
+
+Architecte .Net et spécialiste Dev / OPS, passionné des technologies de cloud computing et des nouvelles approches du développement d'application. Mon terrain de jeu favori est la refonte des grands systèmes d'informations où les choix technologiques, les méthodologies et les besoins en ROI sont structurants pour le métier du client.
 
 ***
 
-#### Austin scenester...
-<small>2008 - 2018</small>
+#### Thales Services Numeriques
+<small>2020 - Ajd</small>
 
-Offal post-ironic before they sold out mixtape you probably haven't heard of them. Pinterest roof party umami everyday carry street art. Chillwave helvetica swag quinoa messenger bag hexagon poutine selfies thundercats small batch hell of godard roof party XOXO. Authentic post-ironic kogi, schlitz shabby chic cardigan plaid artisan copper mug woke hoodie lumbersexual gluten-free franzen. Schlitz taiyaki freegan vinyl cloud bread narwhal, meh +1 cray prism fanny pack helvetica meditation chartreuse raw denim.
+En tant que Team Leader et Architecte de la Squad Industrialisation et rehosting, je suis en charge de définir le mode de déploiement de la baseline du produit Skyview dans une infrastructure Kubernetes.
 
-#### Vinyl hexagon before...
-<small>2001 - 2008</small>
+Le principal enjeu du projet et d’assurer le rehosting d’une dizaine d’applications legacy C++/Java en intégrant les problématiques de sécurité, safety, supervision dans une démarche full dev/ops. La cible étant la containerisation, toutes les applications sont retravaillées pour les rendre compatible avec le nouveau mode d’hébergement.
 
-Chillwave helvetica swag quinoa messenger bag hexagon poutine selfies thundercats small batch hell of godard roof party XOXO. Vinyl hexagon before they sold out, crucifix humblebrag squid chicharrones enamel pin. Iceland humblebrag farm-to-table, lyft pug tilde irony.
-Hot chicken shoreditch tousled listicle, actually meggings vape. Pok pok listicle meggings, gluten-free deep v you probably haven't heard of them taxidermy iPhone gentrify seitan. Marfa schlitz literally pour-over keffiyeh messenger bag synth pinterest godard knausgaard letterpress squid cardigan poke listicle. 
+Parallèlement au travaux de rehosting, la squad Industrialisation et rehosting a la charge d’assurer la mise en place du processus dev/ops pour assurer la migration vers Kubernetes. Les outils utilisés sont Ansible, Helm, Bazel principalement le tout orchestré dans une forge Jenkins.
 
-#### La croix you probably...
-<small>1995 - 2000</small>
+Environnements tehcniques et méthodologique
 
-Shoreditch activated charcoal iceland hexagon. Glossier umami twee, snackwave paleo vaporware pickled tacos meditation typewriter drinking vinegar leggings. Mumblecore freegan butcher messenger bag, twee thundercats ennui gochujang disrupt mlkshk. Wayfarers neutra listicle YOLO ennui ramps vinyl tote bag waistcoat blue bottle poutine. Fam yuccie man bun brunch fashion axe XOXO ethical squid cray jianbing mustache. Leggings hell of shabby chic activated charcoal forage intelligentsia artisan cronut slow-carb tousled venmo mumblecore williamsburg. Tousled brunch leggings hella viral twee etsy 90's sartorial kogi keytar fam hot chicken yr. Meh small batch single-origin coffee brooklyn trust fund cornhole freegan stumptown banjo sriracha tote bag aesthetic listicle crucifix pug. Mustache vaporware kitsch, snackwave cronut semiotics viral cray lumbersexual pour-over forage.
+1. Docker, Helm, Ansible
+2. Rancher, K3s, Kind, Kubernetes,
+3. Java,
+4. Linux,
+5. Kafka, Redis,…
+6. Grafana, Prometheus, Thanos, …
+
+
+#### ORANGE APPLICATION FOR BUSINESS
+<small>2019 - 2020</small>
+
+ans le cadre d'un développement de produit pour le monde de l'horlogerie, je suis en charge de construire la solution d'application lifecycle management qui couvrent d'une part le déploiement applicatif (Solution à base de microservice), le déploiement de l'infrastructure Kubernetes (~30 clusters worldwide) et enfin de l'infrastructure de supervision fonctionnelle (Cluster ELK) et technique (Déploiement Prométhéus / Elk / Grafana / Thanos).
+
+La forge livrée contient donc l'ensemble des builds applicatives et des builds liées à l'IaC, ainsi que les release pipeline pour déployer, dans le monde entier, les clusters K8s derrière un Azure Traffic Manager.
+
+La forge est construite de tel sorte que l’ensemble des plateformes (dev, integration, UAT,…) soient construite automatiquement, en injectant par paramétrage, les différents besoins en termes de topologie.
+
+La prestation a couvert en amont la définition de l'infrastructure Azure, mais aussi la sélection du mode de gestion des clusters K8s au sein de la forge. J'ai donc opté pour l'usage de Chart Helm afin de faciliter les déploiements.
+
+Enfin, j’ai mis en place la solution de tests de charge afin de valider les processus d’horizontal auto scaling défini au sein des charts Helm.
+
+D’un point de vue opérationnel, je pilote une équipe de 4 personnes en charge de la construction des éléments d’infrastructure et de supervision
+
+Environnements techniques et méthodologiques:
+
+1. Docker, Helm, Azure ACR,
+2. Azure Dev/Ops, Azure (IaaS), Azure (PaaS), ARM, Az Cli, Powershell
+3. Java ,
+4. Linux,
+5. Azure VPN, Application Gateway, Traffic Manager,
+6. Microsoft Load Testing,
+7. Grafana, Prometheus, Thanos, CouchDB, …
+
+#### ORANGE APPLICATION FOR BUSINESS - Deltadore
+
+<small>2019</small>
+
+Pour le compte d'Orange Application For Business en tant que consultant Dev/Ops je suis en charge du déploiement de la solution de vidéo surveillance du groupe Delta Dore. Construite sur une solution Java, et hébergée sur une plateforme Linux, les applicatifs doivent être déployés sur le Cloud Microsoft Azure.
+
+Le projet consiste à :
+
+1. Mettre les équipes de développement en mode Continuous Delivery
+2. Déployer l'infrastructure IaaS / PaaS en mode IaaC (Infrastructure as a Code)
+3. Déployer les middleware sur les serveurs IaaS
+4. Construire les release pipeline applicatifs
+
+Environnements techniques et méthodologiques:
+
+- Azure Dev/Ops, IaaS, PaaS,
+- Linux, Bash,
+- Powershell, ARM Templating,
+- CI/CD, Jenkin, Artifactory, GitLab
+- 4 personnes dans l’équipe
+
+#### ORANGE APPLICATION FOR BUSINESS
+
+<small>2016 - 2019</small>
+Dans les équipes de production d'Orange Applications For Business, ma première mission est de diffuser la méthodologie Dev / Ops au sein des équipes logicielles d'Orange Business Application et de conseiller nos clients sur la mise en œuvre de cette démarche au sein de leurs propres équipes.
+
+Les thèmes abordés sont multiples et vont de la capture d'exigences à la mise en place de mécanismes de déploiement logiciel (Soft et Infra) passant par les problématiques de gestion de code source, de builds, de qualité logicielle, de gestion de projets, de qualité logicielle.
+
+Mon domaine de prédilection est principalement axé sur les technologies Microsoft et plus particulièrement la forge logicielle Azure Dev Ops (TFS Forge) permettant l'orchestration des développements .Net et des déploiements d'infrastructure (Azure IaaS, Azure PaaS, Azure CaaS et tout type de fournisseur de cloud computing).
+
+La deuxième partie de mon activité, plus classique au sein d'une ESN tel qu'Orange Application For Business consiste à réaliser des projets de développement dans l'écosystème Microsoft. En tant que leader technique senior, je dirige une équipe de développement en définissant les orientations technologiques et les processus de production, en soutenant les développeurs juniors et en assurant la viabilité du triptyque qualité / coût / temps dans une approche Dev / Ops. Les projets sur lesquels je travaille sont principalement axés sur .Net, Net Core, SQL Server, Windows Server, Azure IaaS, Azure PaaS, Adfs.
+
+Environnements techniques et méthodologiques 
+
+- Active directory, Active Directory Federation Services (ADFS)
+- PowerShell, Microsoft PowerShell DSC
+- Azure (IaaS),Azure (PaaS),
+- .Net Core,.NET, C#
+- Cacti, Nagios,
+- SQL Server,
+- Microsoft Team Foundation Server – Azure Dev OPS
+- Agilité et processus Dev / OPS
+
+#### ORANGE APPLICATION FOR BUSINESS - Ingénieur avant vente
+
+<small>2011 - 2015</small>
+
+Afin de valider ma double compétence en Management, j'ai fait le choix de m'orienter vers une activité d'avant-vente en intégrant l'équipe des business developer d'OAB.
+
+Au sein de cette équipe, mon activité consistait principalement à réaliser les réponses à appel d'offres pour nos clients et prospects (marché public et/ou privé). Mon domaine d'intervention était principalement orienté autour des technologies Microsoft pour des projets de développement au forfait, mais aussi des solutions de portail telles que Drupal, EzPublish et WordPress.
+
+L'activité d'avant ventre regroupe les activités : d’identification des solutions techniques, de construction des dossiers de réponse (Technique et Financière), d'animation de l'équipe de réponse, de bid management et de soutenance client. Dans le cadre de cette activité je suis chargé de définir les solutions technologiques, leurs coûts, les méthodologies de projet à mettre en œuvre, la partie financière et commerciale de la proposition dans le respect des contrainte de l'entreprise.
+
+Partant d'un portefeuille quasi nul en 2011, je gère, à fin 2015, environ 4M € de facturation / an avec une marge brute de 22%.
+
+#### ORANGE APPLICATION FOR BUSINESS - Software Architect .Net
+
+<small>2011 - 2015</small>
+
+Au sein des équipes de développement logiciels de la division Application Digitale d'Orange Applications For Business, je suis en charge de la réalisation des projets Microsoft pour le compte de nos clients.
+
+Mon intervention, quasi exclusivement en mode engagement de résultat, si elle se contenait dans un premier temps aux activités de développement, à rapidement évolué vers une position de leader technique.
+
+Responsable technique des projets, mon rôle consiste à assurer la qualité du délivry d'une part tout en respectant les impératifs de coût/qualité/délais. Responsable de l'équipe de développement d'un point de vue technique, je suis en charge d'animer l'expertise technique, de valider techniquement les candidats à l'embauche, et à suivre les stagiaires.
+
+Au sein de la direction technique, je suis amené à travailler sur les processus de développement logicielle et je participe au déploiement de la Forge Logicielle Team Foundation Serveur au sein de l'entreprise.
+
+Environnements techniques et méthodologiques
+
+- .NET, ASP.NET, …
+- Windows (2003, 2008, XP, XPE, 7, 8, 10),
+- SQL Server,
+- TFS
+
+#### ORANGE APPLICATION FOR BUSINESS - Monecam
+
+<small>2011 - 2015</small>
+
+8 mois de mission pour la société Monécam pour le compte d'Orange Business Services. J'ai été en charge de l'industrialisation d’une plateforme de télé collecte des données de paiement sur la stack IP
+
+Environnements techniques et méthodologiques:
+
+- Clustering, IPV6
+- Red Hat Linux
+- Ubuntu
+- JMeter
+
+#### Groupe Kudelski – Filiale Quative
+
+<small>2007</small>
+
+Dans le cadre du déploiement de l'offre Vidéo à la demande au sein de la société numéricable, j'ai été amené à déployer la plateforme VOD de la société Quative basée à Londres.
+Mon rôle, outre la gestion quotidienne de la plateforme, était de m'assurer que l'intégration avec l'ensemble des partenaires était conforme avec les spécifications techniques. Gestion des contenus, gestion des flux vidéos (serveurs rtsp et de stockage), gestion des utilisateurs et gestion de la facturation sont quelques exemples des briques fonctionnelles dont j'avais la responsabilité.
+En outre la mission était basée entre Paris et Londres et donc la langue de travail était l'anglais
+
+Environnements techniques et méthodologiques:
+
+- Dojo, jQuery,Windows IIS,Windows Mobile
+- Linux Red Hat, Bash, IPv4, Routing Cisco, …
+
+#### Groupe Kudelski – Filiale Quative
+
+<small>2005 - 2007</small>
+
+Thomson Télécom et plus particulière la division S&S est largement impliquée dans le domaines des Set Top Box et la télévision sur ADSL. Au sein de cette équipe je participe au développement et au déploiement client d'une plateforme de télévision sur ADSL nommée PeakFrame et plus particulièrement au développement du portail embarqué dans les STB en technologie WEB.
+
+Lors de cette mission je me suis vu confié le déploiement au Koweït de notre plateforme d'IP TV. Le budget du contrat et de l'ordre de 2 Millions d'€ et ma mission consiste à installer au sein du datacenter l’ensemble des équipements nécessaire au fonctionnement de la plateforme et à réaliser l’ensemble du setup applicatifs de l'offre Peakframe. Cette plateforme fournie au client 150 chaines live (Fournisseur Bouquet satellite Showtime principalement), des vidéos à la demande, du network Personal Video Recording, et des jeux flash (Intégration Visiware). La plateforme se compose alors de 130 serveurs DELL 2950, une baie de Stockage SAN, 150 récepteurs satellites. La donnée est stockée dans un cluster SQL Server en mode failover.
