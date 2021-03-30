@@ -6,7 +6,7 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.data.settings.title }}{% endif %}</title>
   <meta name='description' content='{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.data.settings.description }}{% endif %}'>
   <meta prefix="go: http://ogp.me/ns#" property='og:title' content='{{ page.title }}'/>
-  <meta prefix="go: http://ogp.me/ns#" property='og:image' content='https://matthieupetite.github.io/{{ page.image }}'/>
+  <meta prefix="go: http://ogp.me/ns#" property='og:image' content='https://matthieupetite.github.io/blog/images/{{ page.image }}'/>
   <meta prefix="go: http://ogp.me/ns#" property="og:site_name" content="Matthieu Petite Blog">
   <meta prefix="go: http://ogp.me/ns#" property='og:description' content='{{ page.title }}'/>
   <meta prefix="go: http://ogp.me/ns#" property="og:type" content="article">
