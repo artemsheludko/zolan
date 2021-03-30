@@ -42,7 +42,7 @@ helm repo list
 
 qui doit vous donner le résultat suivant:
 
-[Helm repo list](/blog/images/post/2020/03/2020-03-30-installation-kafka-strimzi-kubernetes-1.png)
+![Helm repo list](/blog/images/post/2020/03/2020-03-30-installation-kafka-strimzi-kubernetes-1.png)
 
 ## Création du squelette de notre Chart
 
@@ -257,7 +257,7 @@ helm dependency update ./Kafka/
 
 Vous devez obtenir le résultat suivant:
 
-[helm repository update](/blog/images/post/2020/03/2020-03-30-installation-kafka-strimzi-kubernetes-2.png)
+![helm repository update](/blog/images/post/2020/03/2020-03-30-installation-kafka-strimzi-kubernetes-2.png)
 
 Cette commande a pour effet de télécharger le chart le dossier /charts de votre Chart.
 
@@ -276,10 +276,10 @@ Après quelques minutes vous constaterez dans votre cluster que l'ensemble des P
 3. le cluster Kafka lui-même
 4. le pod pour le bridge Kafka
 
-![resultat installation kafka](blog/images/post/2020/03/2020-03-30-installation-kafka-strimzi-kubernetes-3.png)
+![resultat installation kafka](/blog/images/post/2020/03/2020-03-30-installation-kafka-strimzi-kubernetes-3.png)
 
 et que les customs ressources de l'opérateur strimzi sont présentes:
 
-![custom ressource strimzi](blog/images/post/2020/03/2020-03-30-installation-kafka-strimzi-kubernetes-4.png)
+![custom ressource strimzi](/blog/images/post/2020/03/2020-03-30-installation-kafka-strimzi-kubernetes-4.png)
 
 Pour avoir accès au code source de cet exemple, c'est par ici [https://github.com/matthieupetite/helm-samples](https://github.com/matthieupetite/helm-samples)
