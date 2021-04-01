@@ -395,3 +395,5 @@ Il vous suffit ensuite de vous connecter sur l'URL suivante [http://grafana.clus
 Entrez le login suivant `admin` et le mot de passe `password` pour vous connecter à grafana. Vous aurez ensuite dans la partie manage accès à la liste de vos tableaux de bord.
 
 ![dashboard grafana](/blog/images/post/2021/03/2021-03-31-deploiement-prometheus-grafana-kubernetes-4.png)
+
+Pour avoir accès au code source de cet exemple, c'est par ici [https://github.com/matthieupetite/helm-samples](https://github.com/matthieupetite/helm-samples)
