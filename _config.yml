@@ -20,6 +20,11 @@ defaults:
       path: '_pages'
     values:
       permalink: /:basename:output_ext
+  - scope:
+      path: ""
+      type: "experiences"
+    values:
+      layout: "experience"
 
 include:
   - _pages
@@ -33,3 +38,8 @@ tag_permalink_style:  pretty
 sass:
   sass_dir: _sass
   style: compressed
+
+collections:
+  experiences:
+    output: true
+    permalink: /:collection/:name

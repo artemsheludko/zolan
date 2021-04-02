@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<div class="container">
+	<div class="experience-title-box">
+		<div class="row">
+			<div class="col col-10 push-2 col-11 push-t-1 col-m-12 push-m-0">
+				<h1 class="experience-title">{{ page.title | escape }}</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col col-10 push-2 col-11 push-t-1 col-m-12 push-m-0">
+				<h1 class="experience-compagny">{{ page.compagny | escape }}</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col col-10 push-2 col-11 push-t-1 col-m-12 push-m-0">
+				{% if page.tags.size >= 1 %}
+				<div class="article-tags__box">
+				  {% for tag in page.tags %}
+					<a href="#" class="article__tag">{{ tag }}</a>
+				  {% endfor %}
+				</div>
+			  {% else %}
+			  {% endif %}
+			</div>
+		</div>
+	</div>
+	{% if page.image %}
+	<div class="experience__head">
+		<div class="experience-image" style="background-image: url({{site.baseurl}}/images/experiences/{{page.image}})"></div>
+	</div>
+	{% endif %}
+</div>
+
+
+<div class="container">
+	<div class="row">
+		<!-- begin page -->
+		<article class="experience col col-8 col-t-10 col-m-12">
+			<div class="experience__content">
+				{{ content }}
+			</div>
+		</article>
+		<!-- end page -->
+	</div>
+</div>

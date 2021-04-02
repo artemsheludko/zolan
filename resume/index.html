@@ -1,0 +1,26 @@
+---
+layout: default
+---
+{% include experience-intro.html %}
+
+<div class="container">
+	<div class="row">
+		<div class="col col-12">
+			{% if site.experiences.size > 0 %}
+				<h4 class="lates-title">Experiences</h4>
+			{% endif %}
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+	{% assign sortedExperiences = site.experiences | sort: 'order' | reverse %}
+	{% if site.experiences.size > 0 %}
+		{% for experience in sortedExperiences  %}
+            {% include experience-content.html %}
+		{% endfor %}
+	{% endif %}
+	</div>
+</div>
+{% include pagination.html %}
