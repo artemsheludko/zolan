@@ -27,6 +27,9 @@
               <li class="nav__item">
                 <a href="{{site.baseurl}}/" class="nav__link">Accueil</a>
               </li>
+              <li class="nav__item">
+                <a href="{{site.baseurl}}/resume" class="nav__link">Experiences</a>
+              </li>
               {% for page in site.pages %}
                 {% unless page.name == 'tags.html' or page.name == '404.html' or page.title == 'Style Guide' %}
               {% if page.title %}

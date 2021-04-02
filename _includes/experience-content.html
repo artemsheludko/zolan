@@ -1,0 +1,59 @@
+{% assign without-image = nil %}
+<!-- begin experience -->
+<div class="experiences">
+  <div class="container">
+
+    <div class="experiences__wrapper">
+
+        {% if experience.image %}
+          <a href="{{experience.url | prepend: site.baseurl}}" class="experiences__image" style="background-image: url({{site.baseurl}}/images/experiences/{{experience.image}})">
+          </a>
+        {% else %}
+          {% assign without-image = 'experiences-without-image' %}
+        {% endif %}
+
+        <div class="experiences__content {{ without-image }}">
+          <div class="container">
+            <div class="row">
+              <div class="col-8">
+                <div class="experiences-maintitle">
+                  {{ experience.title }} 
+                </div>
+                <div class="experiences-compagny">
+                  {{ experience.compagny}} 
+                </div>
+                <div class="experiences-date">
+                  {{ experience.start }} - {{ experience.end }} 
+                </div>
+                <div class="experiences-tags">
+                  {% if experience.tags.size >= 1 %}
+                    <div class="experiences-tags__box">
+                      {% for tag in experience.tags %}
+                        <a href="#" class="experiences__tag">{{ tag }}</a>
+                      {% endfor %}
+                    </div>
+                  {% else %}
+                  {% endif %}
+                </div>
+              </div>
+              <div class="col-4">
+                <a href="{{experience.url | prepend: site.baseurl}}" class="experiences__logo" style="background-image: url({{site.baseurl}}/images/experiences/logo/{{experience.logo}})">
+                </a>  
+              </div>
+            </div>
+          </div>
+          
+
+          <p class="experiences__excerpt">{% if experience.description %}{{ experience.description }}{% else %}{{ experience.content | strip_html | truncate: 185 }}{% endif %}</p>
+          
+          <div class="experiences__footer">
+            <a href="{{experience.url | prepend: site.baseurl}}" class="read-more">Lire la suite<i class="ion ion-ios-arrow-forward"></i></a>
+          </div>
+
+        </div>
+
+      </div>
+      
+  </div>
+</div>
+<!-- end experience -->
