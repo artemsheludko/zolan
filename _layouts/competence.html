@@ -1,0 +1,51 @@
+---
+layout: default
+---
+{% include competences-intro.html %}
+
+<div class="container">
+	<h4 class="lates-title">Certifications</h4>		
+	{% if site.certifications.size > 0 %}
+		<div class="row">
+			{% for certification in site.certifications  %}
+			<div class="container col col-6">
+				<div class="certification">
+					<div class="container">
+						<div class="certification__wrapper">
+						{% if certification.image %}
+						<a href="#" class="certification__image" style="background-image: url({{site.baseurl}}/images/certifications/{{certification.image}})">
+						</a>
+						{% else %}
+							{% assign without-image = 'certification-without-image' %}
+						{% endif %}
+						
+						<div class="certification__content {{ without-image }}">
+						<h2 class="certification__title">
+							{{certification.title}}
+						</h2>
+						<div class="certification-tags">
+						{% if certification.tags.size >= 1 %}
+							<div class="certification-tags__box">
+							{% for tag in certification.tags %}
+								<a href="{{ site.baseurl }}/tag/{{ tag }}" class="certification__tag">{{ tag }}</a>
+							{% endfor %}
+							</div>
+						{% else %}
+						{% endif %}
+						</div>
+						<p class="certification__excerpt">{{ certification.content | strip_html  }}</p>
+						
+						<div class="certification__footer">
+							<div class="certification__meta">
+							<span class="certification__date">{{certification.date-obtention}}</span>
+							</div>
+						</div>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+		{% endfor %}
+		</div>
+	{% endif %}
+</div>

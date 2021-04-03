@@ -3,6 +3,7 @@ layout: page
 title: A propos
 permalink: /about/
 image: 01.jpg
+published: false
 ---
 
 Hello, mon nom est Matthieu PETITE
