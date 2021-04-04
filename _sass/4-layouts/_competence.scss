@@ -124,3 +124,105 @@
     }
   }
 }
+
+.skill-box {
+	width: 100%;
+	padding: 15px;
+  margin:20px;
+	background-color:white;
+	border-radius: 5px;
+	top: 50%;
+	left: 50%;
+	box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.1);
+	>h3 {
+		margin-bottom: 15px;
+		color:$brand-color;
+	}
+	>.skills-circle {
+		>ul {
+			padding: 0;
+			text-align: center;
+			list-style-type: none;
+			>li {
+				width: 150px;
+				height: 150px;
+				background-color: #ddd;
+				border-radius: 50%;
+				position: relative;
+				display: inline-block;
+				overflow: hidden;
+				margin: 10px;
+				>span {
+					color:$green;
+					~ {
+						b {
+							top: 50%;
+							left: 50%;
+							position: absolute;
+							-webkit-transform: translate(-50%, 20%);
+							-ms-transform: translate(-50%, 20%);
+							transform: translate(-50%, 20%);
+							margin-top: -8px;
+							z-index: 1;
+							~ {
+								b {
+									font-weight: normal;
+									margin-top: 8px;
+								}
+							}
+						}
+					}
+				}
+				>span.text {
+					top: 50%;
+					left: 50%;
+					position: absolute;
+					-webkit-transform: translate(-50%, -50%);
+					-ms-transform: translate(-50%, -50%);
+					transform: translate(-50%, -50%);
+					margin-top: -8px;
+					z-index: 1;
+					~ {
+						b {
+							font-weight: normal;
+							margin-top: 8px;
+						}
+					}
+				}
+				>span.bar-circle-right {
+					border-radius: 50%;
+					position: absolute;
+					display: block;
+					width: 100%;
+					height: 100%;
+					background:$green;
+					clip: rect(0, 75px, 150px, 0);
+				}
+				>span.bar-circle-left {
+					border-radius: 50%;
+					position: absolute;
+					display: block;
+					width: 100%;
+					height: 100%;
+					background: $green;
+					clip: rect(0, 75px, 150px, 0);
+					background: #ddd;
+				}
+				>span.bar-circle-cover {
+					display: block;
+					width: 95%;
+					height: 95%;
+					border-radius: 50%;
+					background-color: #eee;
+					z-index: 0;
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					-webkit-transform: translate(-50%, -50%);
+					-ms-transform: translate(-50%, -50%);
+					transform: translate(-50%, -50%);
+				}
+			}
+		}
+	}
+}

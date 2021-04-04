@@ -44,6 +44,6 @@ collections:
     output: true
     permalink: /:collection/:name
   certifications:
-    output: true
-  competence:
+    output: false
+  competences:
     output: false

@@ -1,0 +1,26 @@
+{% assign competence_categories = site.competences | map: 'category' | uniq %}
+{% for category in competence_categories %}
+	<div class="row">
+		<div class="skill-box">
+			<h3>
+				{{ category }}
+			</h3>
+			<div class="skills-circle">
+				{% assign competences_list = site.competences | where: "category", category %}
+				<ul>
+				{% for competence in competences_list %}
+					<li data-percent="{{ competence.level }}">
+						<span class="text">
+						{{ competence.title }}
+						</span>
+						<span class="bar-circle-right"></span>
+						<span class="bar-circle-left"></span>
+						<span class="bar-circle-cover"></span>
+						<b></b>
+					</li>
+				{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+{% endfor%}
