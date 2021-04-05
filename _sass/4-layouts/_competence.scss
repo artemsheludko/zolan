@@ -101,11 +101,14 @@
 
     .certification__image {
       width: 100%;
+      display:none;
     }
+
+    
 
     .certification__content {
       width: 90%;
-      padding: 20px;
+      padding: 10px;
       margin: -10% 0 0 0;
     }
 
@@ -113,13 +116,37 @@
       width: 90%;
       margin: 0;
     }
+
+    
+
+    .certification__tag {
+      font-size:8px;
+    }
   }
 
   @media only screen and (max-width: $mobile) {
+    .certification {
+      .container {
+        padding:0px;
+      }
+    }
+    
     .certification__content {
 
       .certification__title {
-        font-size: 27px;
+        font-size: 12px;
+      }
+
+      .certification__content {
+        padding:2px;
+      }
+
+      .certification__tag {
+        font-size:8px;
+      }
+
+      .certification__image{
+        display: none;
       }
     }
   }
