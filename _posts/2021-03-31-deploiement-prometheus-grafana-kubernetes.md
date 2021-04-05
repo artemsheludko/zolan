@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Deploiment de la suite prometheus grafana sous Kubernetes
+title: Deploiement de la suite prometheus grafana sous Kubernetes
 tags: [kubernetes, prometheus, grafana, k3d, helm]
 image: /post/2021/03/2021-03-31-deploiement-prometheus-grafana-kubernetes.png
 summary: "Superviser le cloud est un enjeu majeur lorsque l on décide d y déployer une application métier, Prometheus, Grafana s imposent comme des outils essentiels pour répondre aux enjeux de monitoring. Voici comment les déployer dans un environnement Kubernetes."
