@@ -1,6 +1,6 @@
 ---
 layout: page
-title: A propos
+title: comment policy
 permalink: /comment-policy/
 image: 01.jpg
 ---

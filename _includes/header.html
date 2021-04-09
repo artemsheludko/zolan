@@ -31,7 +31,7 @@
                 <a href="{{site.baseurl}}/resume" class="nav__link">Experiences</a>
               </li>
               {% for page in site.pages %}
-                {% unless page.name == 'tags.html' or page.name == '404.html' or page.title == 'Style Guide' %}
+                {% unless page.name == 'tags.html' or page.name == '404.html' or page.title == 'Style Guide' or page.title == 'comment policy' %}
               {% if page.title %}
               <li class="nav__item">
                 <a href="{{ page.url | prepend: site.baseurl }}" class="nav__link">{{ page.title }}</a>
