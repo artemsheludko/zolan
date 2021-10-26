@@ -4,7 +4,7 @@ tags: [azure, aws, kubernetes, dev/ops, leader]
 image: skyview-1.png
 compagny: Groupe Thales
 start: Jun 2020
-end: Poste Actuel
+end: Avril 2021
 order: 9
 logo: thales-logo.jpg
 ---
