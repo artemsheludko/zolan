@@ -1,8 +1,8 @@
 #-------------------------------
 # General Site Settings
-title: Zolan
+title: Hamthoven's Archive
 logo: logo.svg # You can add own logo.
-description: Zolan is modern minimal theme for Jekyll
+description: 햄또븐의 개발 블로그
 
 
 #-------------------------------
@@ -10,14 +10,17 @@ description: Zolan is modern minimal theme for Jekyll
 author:
   name: Yujin Kang
   image: 01.jpg
-  say-hello: Hello, I’m <strong>Yujin Kang (a.k.a. Hamthoven).</strong>
+  say-hello: Hello, I’m <strong>Yujin Kang \n (a.k.a. Hamthoven).</strong>
   bio: I love to develope mobile applications and playing with data.
 
 
 #-------------------------------
 # Contact links
-github: https://github.com/Hamthoven/ # Github handle
-
+twitter: https://twitter.com/ # Add your Twitter handle
+facebook: https://facebook.com/ # Add your Facebook handle
+dribbble: https://dribbble.com/ # Add your Dribbble handle
+instagram: https://instagram.com/ # Add your Instagram handle
+pinterest: https://pinterest.com/ # Add your Pinterest handle
 
 #-------------------------------
 # Comment Section (Disqus)
