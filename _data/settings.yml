@@ -1,7 +1,7 @@
 #-------------------------------
 # General Site Settings
 title: Hamthoven's Archive
-logo: logo.svg # You can add own logo.
+logo: favicon.ico # You can add own logo.
 description: 햄또븐의 개발 블로그
 
 
@@ -10,7 +10,7 @@ description: 햄또븐의 개발 블로그
 author:
   name: Yujin Kang
   image: 01.jpg
-  say-hello: Hello, I’m <strong>Yujin Kang</strong></br> <strong>(a.k.a. Hamthoven).</strong>
+  say-hello: Hello, I’m <strong>Yujin Kang</strong></br> <strong>(a.k.a. Hamthoven)</strong>
   bio: I love to develope mobile applications and playing with data.
 
 
