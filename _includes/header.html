@@ -5,7 +5,7 @@
       <header class="header">
 
         <div class="logo">
-          <a class="logo__link" href="{{site.baseurl}}/index">
+          <a class="logo__link" href="{{site.baseurl}}/">
             {{ site.data.settings.title }}
           </a>
         </div>
@@ -21,7 +21,7 @@
 
             <ul class="nav__list list-reset">
               <li class="nav__item">
-                <a href="{{site.baseurl}}/index" class="nav__link">Home</a>
+                <a href="{{site.baseurl}}/" class="nav__link">Home</a>
               </li>
               {% for page in site.pages %}
                 {% unless page.name == 'tags.html' or page.name == '404.html' %}
