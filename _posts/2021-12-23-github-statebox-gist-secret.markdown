@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  <Github> (미완성 글) Gist와 Secret을 이용한 Awesome Pinned Gist 적용하기
+title:  Gist와 Secret을 이용한 Awesome Pinned Gist 적용하기
 date:   2021-12-23 14:04:30 +0300
 image:  02.jpg
 tags:   Github
