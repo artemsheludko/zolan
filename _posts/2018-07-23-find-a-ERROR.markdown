@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Find a ERROR
-date:   2019-07-24 15:01:35 +0300
+title:  Find 한국어 타이틀 체크
+date:   2019-07-24 16:01:35 +0300
 image:  04.jpg
 tags:   New
 ---
