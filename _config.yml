@@ -24,6 +24,7 @@ defaults:
 include:
   - _pages
 
+future: true
 
 # Tags
 tag_page_dir:         tag
