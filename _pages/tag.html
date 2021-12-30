@@ -1,14 +1,21 @@
 ---
 layout: page
+title: Tags
 permalink: /tag/
 ---
 
 <div class="arhive-head">
     <div class="container">
-      <h1 class="archive-title">Tags</h1>
+        {% if page.tags.size >= 1 %}
+        <div class="post__tags">
+          {% for tag in site.data.tags %}
+            <a href="{{ site.baseurl }}/tag/{{ tag }}" class="post__tags-tag">{{ tags }}</a>
+          {% endfor %}
+        </div>
+        {% endif %}
     </div>
   </div>
-  
+</div> 
 
 <!--
 {% include tag_page.html %}
