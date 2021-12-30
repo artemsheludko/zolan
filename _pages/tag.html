@@ -6,7 +6,7 @@ permalink: /tag/
 
 <div class="arhive-head">
     <div class="container">
-        {% if page.tags.size >= 1 %}
+        {% if site.data.tags >= 1 %}
         <div class="post__tags">
           {% for tag in site.data.tags %}
             <a href="{{ site.baseurl }}/tag/{{ tag }}" class="post__tags-tag">{{ tags }}</a>
