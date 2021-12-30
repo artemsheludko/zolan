@@ -3,17 +3,14 @@ layout: post
 title:  Gist와 Secret을 이용한 Awesome Pinned Gist 적용하기
 date:   2021-12-23 14:04:30 +0300
 image:  02.jpg
-tags:   Github
+tags:   [Github, Gist, Tip]
 categories: github tips
 ---
 
 깃허브 프로필을 정리하면서 알게 된 기능인 Gist와 Secrets에 대해 간략한 설명을 곁들여 Awesome Pinned Gists의 Gist들을 사용하는 방법을 정히해보았다. 내가 Gist와 Secrets를 사용한 건 아래 사진과 같은 [스테이트 박스](https://github.com/bokub/github-stats-box)다. 이 글은 초보자 수준이거나 Git에 아직 익숙하지 않은 사람들에게 초점을 맞췄다.
 
-***
 
 ![](https://user-images.githubusercontent.com/86394389/147643945-0b1ae3d2-df16-4614-9ed6-c53071d24c93.png)
-
-***
 
 처음에 이걸 Fork 해서 사용하는데 README를 읽으면서 따라해도 오류가 났다. 그래서 코드를 보고 눈치껏 이것저것 건드려보면서 익혔고 __해냈다!__ 이 글은 나와같은 눈치코치를 거치지 않고 스테이트 박스를 포함한 [Awesome Pinned Gists](https://github.com/matchai/awesome-pinned-gists)를 자신의 깃허브에 적용하는 방법이다.
 
@@ -124,10 +121,13 @@ __Generate new token__ 버튼을 눌러 토큰을 새로 하나 만든다.
 
 ![](https://user-images.githubusercontent.com/86394389/147645945-40dbc748-85d2-4db9-8197-0e4aed4111fb.png)
 
-확인은 Gist를 새로고침해보거나 Pin하면 된다. Pin 하는 것은 프로필에 Pinned 항목 오른쪽에서 Customize your pins라는 글자를 누르면된다. *레포지토리가 아니라 Gist를 pin하도록 한다*. 
+확인은 Gist를 새로고침해보거나 Pin하면 된다. Pin 하는 것은 프로필에 Pinned 항목 오른쪽에서 Customize your pins라는 글자를 누르면된다. *레포지토리가 아니라 Gist를 pin하도록 한다*. 아래 사진은 Gist에서 확인한 모습이다. run이 제대로 되었다면 (초록색 체크 표시가 있다면) 아래와 같이 Gist에서도 변경되어있을 것이다. 
+
+![](https://user-images.githubusercontent.com/86394389/147191070-926d5c45-74d7-4cb5-b08d-ae3f7fa42743.png)
 
 ## 완성!
 
-아래 사진은 프로필에 pin한 모습이다. 나는 코드에 이상한 점을 잘 모르겠으면 내가 fork한 레포의 원래 레포를 들어가서 코드를 비교해본다. 비교해보고 차이점을 확인하면서 진행하면 다른 Awesome Pinned Gist를 사용할 때도 도움이 될 것이다.
+![](https://user-images.githubusercontent.com/86394389/147643945-0b1ae3d2-df16-4614-9ed6-c53071d24c93.png)
 
-![](https://user-images.githubusercontent.com/86394389/147191070-926d5c45-74d7-4cb5-b08d-ae3f7fa42743.png)
+나는 코드에 이상한 점을 잘 모르겠으면 내가 fork한 레포의 원래 레포를 들어가서 코드를 비교해본다. 비교해보고 차이점을 확인하면서 진행하면 다른 Awesome Pinned Gist를 사용할 때도 도움이 될 것이다.
+
