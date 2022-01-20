@@ -4,7 +4,7 @@ title:  Gist와 Secret을 이용한 Awesome Pinned Gist 적용하기
 date:   2021-12-23 14:04:30 +0300
 image:  02.jpg
 tags:   [Github, Gist, Tip]
-categories: github tips
+categories: tips github
 ---
 
 깃허브 프로필을 정리하면서 알게 된 기능인 Gist와 Secrets에 대해 간략한 설명을 곁들여 Awesome Pinned Gists의 Gist들을 사용하는 방법을 정히해보았다. 내가 Gist와 Secrets를 사용한 건 아래 사진과 같은 [스테이트 박스](https://github.com/bokub/github-stats-box)다. 이 글은 초보자 수준이거나 Git에 아직 익숙하지 않은 사람들에게 초점을 맞췄다.
