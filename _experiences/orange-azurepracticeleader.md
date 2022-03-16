@@ -4,10 +4,12 @@ tags: [azure, aws, dev/ops, leader]
 image: orangepracticeleader.png
 compagny: Orange Cloud For Business
 start: Avril 2021
-end: Poste Actuel
+end: Décembre 2022
 order: 10
 logo: thales-logo.jpg
 ---
+
+
 
 Pour le compte du groupe Thales, en mission pour Orange Cloud For Business en tant que Technical Leader Azure Dev/Ops, je suis en charge du déploiement de la practice azure au sein du groupe Orange.
 
