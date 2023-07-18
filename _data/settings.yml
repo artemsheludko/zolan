@@ -1,8 +1,8 @@
 #-------------------------------
 # General Site Settings
-title: Zolan
+title: Legal News Updates
 logo: logo.svg # You can add own logo.
-description: Zolan is modern minimal theme for Jekyll
+description: News Updates on International Laws and Regulations, Sanctions and Control
 
 
 #-------------------------------
@@ -11,7 +11,8 @@ author:
   name: Alex Rodriguez
   image: 01.jpg
   say-hello: Hello, I’m <strong>Alex Rodriguez</strong>
-  bio: Designs, talks, and writes about <strong>web</strong>, <strong>ethics</strong>, <strong>privacy</strong>, and dev. I share design tutorials, free resources and inspiration. Loves <a href="#">music</a> & riding his bicycle.
+  bio: <p>Latest News Updates on <strong>International Laws and Regulations</strong>, <strong>Sanctions and Control</strong>.</p>
+  <p>Contents written and designed by Yuhao Chen. </p>
 
 
 #-------------------------------
