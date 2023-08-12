@@ -16,3 +16,15 @@ bundle exec jekyll serve
 
 
 ### 在本地预览完，没有问题以后怎么发布到远程的网站?
+* 在GitHub Desktop里，浏览到正确的仓库（Repo），默认应该就是对的。
+* 先把要更改的文件，打上√，然后填上提交的Summary，然后点击 Commit to Master，这一步不会真的提交，只是确认更改。
+* 点击上面的Push 按钮，会真正的提交到远程的仓库（Repo）。 接下来就可以在远程的网站预览更改了。
+
+### 远程预览更改
+
+* 更改提交以后会经过Build And Deploy的过程，在页面 https://github.com/kardplayer/portfolio2023.github.io/actions 可以看到进展。等图标绿了以后，就生效了。
+* 你的远程网站地址是https://kardplayer.github.io/portfolio2023.github.io/ 它在Setting -> Pages 里也可以找到。
+
+
+### 怎么添加 Post
+具体的步骤和说明在 https://github.com/kardplayer/portfolio2023.github.io#posts下面
