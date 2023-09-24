@@ -12,7 +12,8 @@ Do you know how much you have lost, by not utilizing your budget wisely? Probabl
 Even though Amazon Spend Planner is a financial app, I promise this is will be the only place you need to do first-grade math, so please bear with my comics:
 ![]({{ site.baseurl }}/images/07.jpg)
 *Click to enlarge*
-In this case, the family lost $ 40k potential gain, because of low visibility in budget usage. Likewise, a company will lose a lot more for the same reason.
+In this case, the family lost $ 40k potential gain, because of low visibility in budget usage. Likewise, a company will lose more for the same reason.
+![]({{ site.baseurl }}/images/concepts.jpg)
 
 ### Why not indeed!
 
