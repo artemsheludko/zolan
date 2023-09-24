@@ -1,21 +1,17 @@
 ---
 layout: post
 title:  Avoid Potential Loss with Amazon Spend Planner
-date:   2018-07-24 15:01:35 +0300
+date:   2021-07-24 15:01:35 +0300
 image:  02.jpg
 tags:  WebDesign
 ---
-Yeah, and if you were the pope they'd be all, "Straighten your pope hat." And "Put on your good vestments." Noooooo! Perhaps, but perhaps your civilization is merely the sewer of an even greater society above you!
+Do you know how much you have lost, by not utilizing your budget wisely? Probably thousands a year. But it's a much bigger number for a company in size of Amazon. This is a story of how we solved this problem and help the process of rolling up<strong>$10B</strong> investment budget in financial report.
 
-You lived before you met me?! Ow, my spirit! Humans dating robots is sick. __You people wonder why I'm still single?__ *It's 'cause all the fine robot sisters are dating humans!* I guess if you want children beaten, you have to do it yourself.
+## How much did I lose?
 
-## Are you crazy? I can't swallow that.
-
-Oh, I don't have time for this. I have to go and buy a single piece of fruit with a coupon and then return it, making people wait behind me while I complain. Meh. So, how 'bout them Knicks? Also Zoidberg.
-
-1. We need rest. The spirit is willing, but the flesh is spongy and bruised.
-2. Fry, we have a crate to deliver.
-3. Have you ever tried just turning off the TV, sitting down with your children, and hitting them?
+Even though Amazon Spend Planner is a financial app, I promise this is will be the only place you need to do first-grade math, so please bear with my comics:
+![]({{ site.baseurl }}/images/07.jpg)
+*Click to enlarge*
 
 ### Why not indeed!
 
@@ -29,8 +25,7 @@ Say what? Throw her in the brig. Hey, you add a one and two zeros to that or we 
 
 Hey, you add a one and two zeros to that or we walk! You won't have time for sleeping, soldier, not with all the bed making you'll be doing. It's okay, Bender. I like cooking too. Hey, what kinda party is this? There's no booze and only one hooker.
 
-![]({{ site.baseurl }}/images/07.jpg)
-*Minimalism*
+
 
 Ummm…to eBay? But I know you in the future. I cleaned your poop. I'm just glad my fat, ugly mama isn't alive to see this day. My fellow Earthicans, as I have explained in my book 'Earth in the Balance'', and the much more popular ''Harry Potter and the Balance of Earth', we need to defend our planet against pollution. Also dark wizards.
 
