@@ -5,11 +5,11 @@ date:   2021-07-24 15:01:35 +0300
 image:  02.jpg
 tags:  WebDesign
 ---
-Do you know how much you have lost, by not utilizing your budget wisely? Probably thousands a year. But it's a much bigger number for a company in size of Amazon. This is a story of how we solved this problem and help the process of rolling up<strong>$10B</strong> investment budget in financial report.
+Do you know how much you could lose, if not utilizing your budget wisely? Probably thousands a year. But it's a much bigger number for a company in size of Amazon. This is a story of how we helped avoiding the loss and speeding up the process of rolling up <strong>$10B</strong> investment budget in financial report.
 
-## How much did I lose?
+## How much I could lose...if not doing monthly accrual right?
 
-Even though Amazon Spend Planner is a financial app, I promise this is will be the only place you need to do first-grade math, so please bear with my comics:
+Amazon Spend Planner is a financial app which helps the 'monthly accrual' process. I'll try to demonstrate this concept with comics.
 ![]({{ site.baseurl }}/images/07.jpg)
 *Click to enlarge*
 In this case, the family lost $ 40k potential gain, because of low visibility in budget usage. Likewise, a company will lose more for the same reason.
