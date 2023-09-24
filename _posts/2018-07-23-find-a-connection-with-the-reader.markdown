@@ -9,7 +9,7 @@ Do you know how much you could lose, if not utilizing your budget wisely? Probab
 
 ## How much I could lose...if not doing monthly accrual right?
 
-Amazon Spend Planner is a financial app which helps the 'monthly accrual' process. I'll try to demonstrate this concept with comics.
+Amazon Spend Planner is a financial app which helps the 'monthly accrual' process. In order to understand the necessity of accrual, I'll try to demonstrate some financial concepts with comics.
 ![]({{ site.baseurl }}/images/07.jpg)
 *Click to enlarge*
 In this case, the family lost $ 40k potential gain, because of low visibility in budget usage. Likewise, a company will lose more for the same reason.
