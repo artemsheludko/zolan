@@ -2,7 +2,7 @@
 layout: post
 title:  Avoid Potential Loss with Amazon Spend Planner
 date:   2023-07-24 15:01:35 +0300
-image:  slider_invoices.jpg
+image:  02.jpg
 tags:  WebDesign
 ---
 Do you know how much you could lose, if not utilizing your budget wisely? Probably thousands a year. But it's a much bigger number for a company in size of Amazon. This is a story of how we helped avoiding the loss and speeding up the process of rolling up <strong>$10B</strong> investment budget in financial report.
