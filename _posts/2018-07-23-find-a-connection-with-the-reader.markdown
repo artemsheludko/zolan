@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Avoid Potential Loss with Amazon Spend Planner
-date:   2021-07-24 15:01:35 +0300
+date:   2023-07-24 15:01:35 +0300
 image:  02.jpg
 tags:  WebDesign
 ---

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="53px" height="18px" viewBox="0 0 53 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logo</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo" transform="translate(0.896000, 0.721825)" fill-rule="nonzero">
+            <g transform="translate(0.000000, 0.286175)" fill="#000000">
+                <g id="K">
+                    <polygon id="Path" points="0 0 3.024 0 3.024 7.2 3.168 7.2 10.2 0 14.28 0 6.336 7.848 14.808 16.992 10.56 16.992 3.192 8.64 3.024 8.64 3.024 16.992 0 16.992"></polygon>
+                </g>
+                <g id="K-Copy" transform="translate(44.404000, 8.496000) scale(-1, 1) translate(-44.404000, -8.496000) translate(37.000000, 0.000000)">
+                    <polygon id="Path" points="0 0 3.024 0 3.024 7.2 3.168 7.2 10.2 0 14.28 0 6.336 7.848 14.808 16.992 10.56 16.992 3.192 8.64 3.024 8.64 3.024 16.992 0 16.992"></polygon>
+                </g>
+            </g>
+            <rect id="Rectangle" fill="#FFD257" transform="translate(30.604000, 8.485281) rotate(45.000000) translate(-30.604000, -8.485281) " x="24.6040002" y="2.48528137" width="12" height="12"></rect>
+        </g>
+    </g>
+</svg>
