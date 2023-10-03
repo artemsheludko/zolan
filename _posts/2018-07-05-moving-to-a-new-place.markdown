@@ -16,7 +16,8 @@ Oh, I don't have time for this. I have to go and buy a single piece of fruit wit
 1. We need rest. The spirit is willing, but the flesh is spongy and bruised.
 2. Fry, we have a crate to deliver.
 3. Have you ever tried just turning off the TV, sitting down with your children, and hitting them?
-
+n
+n
 ### Why not indeed!
 
 Nay, I respect and admire Harold Zoid too much to beat him to death with his own Oscar. I don't 'need' to drink. I can quit anytime I want! Soothe us with sweet lies. Bender?! You stole the atom. You don't know how to do any of those.
