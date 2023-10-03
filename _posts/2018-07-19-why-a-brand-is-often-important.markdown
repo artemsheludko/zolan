@@ -17,8 +17,9 @@ Oh, I don't have time for this. I have to go and buy a single piece of fruit wit
 2. Fry, we have a crate to deliver.
 3. Have you ever tried just turning off the TV, sitting down with your children, and hitting them?
 
-### Humans Are Romantic
-
+### Design: Humans Are Romantic
+![]({{ site.baseurl }}/images/Moodboard.jpg)
+*Click to enlarge*
 Nay, I respect and admire Harold Zoid too much to beat him to death with his own Oscar. I don't 'need' to drink. I can quit anytime I want! Soothe us with sweet lies. Bender?! You stole the atom. You don't know how to do any of those.
 
 * Shinier than yours, meatbag.
@@ -46,7 +47,7 @@ Check it out, y'all. Everyone who was invited is here. Anyone who laughs is a co
 
 Bender, we're trying our best. I daresay that Fry has discovered the smelliest object in the known universe! Oh, you're a dollar naughtier than most. Hi, I'm a naughty nurse, and I really need someone to talk to. $9.95 a minute.
 
-### Heads in Clouds, Feet on the Ground
+### Develop: Heads in Clouds, Feet on the Ground
 
 You, a bobsleder!? That I'd like to see! No! The kind with looting and maybe starting a few fires! Good news, everyone! There's a report on TV with some very bad news! When I was first asked to make a film about my nephew, Hubert Farnsworth, I thought "Why should I?" Then later, Leela made the film. But if I did make it, you can bet there would have been more topless women on motorcycles. Roll film!
 
