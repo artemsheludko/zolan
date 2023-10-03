@@ -18,7 +18,7 @@ Oh, I don't have time for this. I have to go and buy a single piece of fruit wit
 3. Have you ever tried just turning off the TV, sitting down with your children, and hitting them?
 
 ### Design: Humans Are Romantic
-![]({{ site.baseurl }}/images/Moodboard.jpg)
+![]({{ site.baseurl }}/images/GRCMoodboard.jpg)
 *Click to enlarge*
 Nay, I respect and admire Harold Zoid too much to beat him to death with his own Oscar. I don't 'need' to drink. I can quit anytime I want! Soothe us with sweet lies. Bender?! You stole the atom. You don't know how to do any of those.
 
