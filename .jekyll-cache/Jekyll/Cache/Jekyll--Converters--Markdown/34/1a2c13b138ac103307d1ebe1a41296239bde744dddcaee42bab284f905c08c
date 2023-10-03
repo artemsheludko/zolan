@@ -1,0 +1,87 @@
+I"1<p>A paragraph looks like this — dolor amet cray stumptown fingerstache neutra food truck seitan poke cardigan waistcoat VHS snackwave celiac hella. Godard seitan shoreditch flexitarian next level trust fund man braid vegan listicle keytar bitters. Disrupt cray fashion axe unicorn lomo shaman poke glossier keffiyeh snackwave austin tattooed seitan hexagon lo-fi. Lumbersexual irony vaporware, butcher shaman church-key iceland.</p>
+
+<hr />
+
+<h3 id="headings-by-default">Headings by default:</h3>
+
+<h1 id="this-is-the-default-title">This is the default title</h1>
+<h2 id="this-is-the-default-title-1">This is the default title</h2>
+<h3 id="this-is-the-default-title-2">This is the default title</h3>
+<h4 id="this-is-the-default-title-3">This is the default title</h4>
+<h5 id="this-is-the-default-title-4">This is the default title</h5>
+<h6 id="this-is-the-default-title-5">This is the default title</h6>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="gu">## Heading first level</span>
+<span class="gu">### Heading second level</span>
+<span class="gu">#### Heading third level</span></code></pre></figure>
+
+<hr />
+
+<h3 id="lists">Lists</h3>
+
+<h4 id="ordered-list-example">Ordered list example:</h4>
+
+<ol>
+  <li>Poutine drinking vinegar bitters.</li>
+  <li>Coloring book distillery fanny pack.</li>
+  <li>Venmo biodiesel gentrify enamel pin meditation.</li>
+  <li>Jean shorts shaman listicle pickled portland.</li>
+  <li>Salvia mumblecore brunch iPhone migas.</li>
+</ol>
+
+<hr />
+
+<h4 id="unordered-list-example">Unordered list example:</h4>
+
+<ul>
+  <li>Bitters semiotics vice thundercats synth.</li>
+  <li>Literally cred narwhal bitters wayfarers.</li>
+  <li>Kale chips chartreuse paleo tbh street art marfa.</li>
+  <li>Mlkshk polaroid sriracha brooklyn.</li>
+  <li>Pug you probably haven’t heard of them air plant man bun.</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="p">1.</span> Order list item 1
+<span class="p">2.</span> Order list item 1
+<span class="p">
+*</span> Unordered list item 1
+<span class="p">*</span> Unordered list item 2</code></pre></figure>
+
+<hr />
+
+<h3 id="quotes">Quotes</h3>
+
+<blockquote>
+  <p>Coming together is a beginning; keeping together is progress; working together is success. — Edward Everett Hale</p>
+</blockquote>
+
+<hr />
+
+<h3 id="syntax-highlighter">Syntax Highlighter</h3>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js">  <span class="nf">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">.top</span><span class="dl">'</span><span class="p">).</span><span class="nf">click</span><span class="p">(</span><span class="nf">function </span><span class="p">()</span> <span class="p">{</span>
+    <span class="nf">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">html, body</span><span class="dl">'</span><span class="p">).</span><span class="nf">stop</span><span class="p">().</span><span class="nf">animate</span><span class="p">({</span> <span class="na">scrollTop</span><span class="p">:</span> <span class="mi">0</span> <span class="p">},</span> <span class="dl">'</span><span class="s1">slow</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">swing</span><span class="dl">'</span><span class="p">);</span>
+  <span class="p">});</span>
+  <span class="nf">$</span><span class="p">(</span><span class="nb">window</span><span class="p">).</span><span class="nf">scroll</span><span class="p">(</span><span class="nf">function </span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">if </span><span class="p">(</span><span class="nf">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nf">scrollTop</span><span class="p">()</span> <span class="o">&gt;</span> <span class="nf">$</span><span class="p">(</span><span class="nb">window</span><span class="p">).</span><span class="nf">height</span><span class="p">())</span> <span class="p">{</span>
+      <span class="nf">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">.top</span><span class="dl">'</span><span class="p">).</span><span class="nf">addClass</span><span class="p">(</span><span class="dl">"</span><span class="s2">top-active</span><span class="dl">"</span><span class="p">);</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+      <span class="nf">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">.top</span><span class="dl">'</span><span class="p">).</span><span class="nf">removeClass</span><span class="p">(</span><span class="dl">"</span><span class="s2">top-active</span><span class="dl">"</span><span class="p">);</span>
+    <span class="p">};</span>
+  <span class="p">});</span></code></pre></figure>
+
+<hr />
+
+<h3 id="videos">Videos</h3>
+
+<iframe src="https://www.youtube.com/embed/iWowJBRMtpc" frameborder="0" allowfullscreen=""></iframe>
+
+<hr />
+
+<h3 id="images">Images</h3>
+
+<p><img src="/portfolio2023.github.io/images/09.jpg" alt="" />
+<em>Backyard</em></p>
+
+<hr />
+:ET
