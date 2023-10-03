@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Build a Safety Net with GRC 
+title:  Three Roadblockers I ran into in GRC Project
 date:   2023-07-19 15:01:35 +0300
 image:  03.jpg
 tags:   WebDesign
@@ -9,7 +9,7 @@ Yeah, and if you were the pope they'd be all, "Straighten your pope hat." And "P
 
 You lived before you met me?! Ow, my spirit! Humans dating robots is sick. __You people wonder why I'm still single?__ *It's 'cause all the fine robot sisters are dating humans!* I guess if you want children beaten, you have to do it yourself.
 
-## Research: No One Knows it All
+### Research: No One Knows it All
 
 Oh, I don't have time for this. I have to go and buy a single piece of fruit with a coupon and then return it, making people wait behind me while I complain. Meh. So, how 'bout them Knicks? Also Zoidberg.
 
