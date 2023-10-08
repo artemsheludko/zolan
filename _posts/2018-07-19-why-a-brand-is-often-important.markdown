@@ -1,37 +1,54 @@
 ---
 layout: post
-title:  GRC running title
+title:  GRC 2 running title
 date:   2023-07-19 15:01:35 +0300
 image:  03.jpg
 tags:   WebDesign
 ---
 ### Project Scope
 
-GRC(Governance, Risk and Compliance) is the 1st and the only risk management tool in Amazon, with all 1,541,000 employees as its potential users.
+GRC 2(Governance, Risk and Compliance) is the 1st and the only risk management tool in Amazon, with all 1,541,000 employees as its potential users.
 
-GRC's existing users include Global Financial Risk Controls (GFRC) team, policy creators and owners across Amazon, CDO Infosec, AWS Security, AWS Managed Services, Internal Audit and risk teams. 
+GRC 2's existing users include Global Financial Risk Controls (GFRC) team, policy creators and owners across Amazon, CDO Infosec, AWS Security, AWS Managed Services, Internal Audit and risk teams. 
 
-FinTech VP is also one of them. 
+Amazon leadership (VP and directors) also rely heavily on GRC 2 to do periodicly reviews.
+
+My Role: the only designer and lead researcher of the project.
 
 
 
 ### Problem Statement
 
-What does GRC do?
+##### What does GRC do?
 
 GRC is a structured tool to align IT with business goals while managing risks and meeting all industry and government compliance requirements.
 
-What is the project need?
+##### What is the user need?
 
-Over 10 years, Amazon has been using GRC 1.0 which looks like this:
+Over 10 years, Amazonians have been using GRC 1.0 which looks like this:
 ![]({{ site.baseurl }}/images/OldGRC.jpg)
 *Click to enlarge*
-The biggest puzzles missing here include but not limited to:
+
+The biggest problems here include but not limited to:
+<ul>
+<li>No visibility on the aggregated status of users' personal items (processes/applications/controls/reviews/...) in GRC.</li>
+<li>No risk library, which is the reason why controls exists. </li>
+<li>UI is tech-heavy, and not friendly to non-tech users (including leadership). </li>
+</ul>
+
+Long story short, GRC 1.0 is nothing more than a recording tool of users' personal items, and cannot provide extra insights/convenience.
 
 
+### Research: No One Knows It All.
 
-### Design: Humans Are Romantic
+Since the scope of GRC is extremely broad, which covers both internal and external audit flows, we soon noticed that every user of the system can only provide a small piece of puzzle, while the UX designer(Kira) has to build the structure based on the comprehensive understanding of all the flows. Based on this finding, the leadership made a business decision to start with GFRC(Global Financial Risk Controls) team and After:
 
+<ul>
+<li>30 hours of interviews</li>
+<li>10+ interviewees </li>
+<li>3 weeks of research</li>
+<li>2 Rounds of workshops with customers </li>
+</ul>
 
 ![]({{ site.baseurl }}/images/GRCMoodboard.jpg)
 *Click to enlarge*
@@ -67,3 +84,5 @@ Bender, we're trying our best. I daresay that Fry has discovered the smelliest o
 You, a bobsleder!? That I'd like to see! No! The kind with looting and maybe starting a few fires! Good news, everyone! There's a report on TV with some very bad news! When I was first asked to make a film about my nephew, Hubert Farnsworth, I thought "Why should I?" Then later, Leela made the film. But if I did make it, you can bet there would have been more topless women on motorcycles. Roll film!
 
 Eeeee! Now say "nuclear wessels"! Why did you bring us here? Yeah, and if you were the pope they'd be all, "Straighten your pope hat." And "Put on your good vestments." That's the ONLY thing about being a slave.
+
+### Wins
