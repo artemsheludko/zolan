@@ -1,21 +1,34 @@
 ---
 layout: post
-title:  Three Roadblockers I ran into in GRC Project
+title:  GRC running title
 date:   2023-07-19 15:01:35 +0300
 image:  03.jpg
 tags:   WebDesign
 ---
-Yeah, and if you were the pope they'd be all, "Straighten your pope hat." And "Put on your good vestments." Noooooo! Perhaps, but perhaps your civilization is merely the sewer of an even greater society above you!
+### Project Scope
 
-You lived before you met me?! Ow, my spirit! Humans dating robots is sick. __You people wonder why I'm still single?__ *It's 'cause all the fine robot sisters are dating humans!* I guess if you want children beaten, you have to do it yourself.
+GRC(Governance, Risk and Compliance) is the 1st and the only risk management tool in Amazon, with all 1,541,000 employees as its potential users.
 
-### Research: No One Knows it All
+GRC's existing users include Global Financial Risk Controls (GFRC) team, policy creators and owners across Amazon, CDO Infosec, AWS Security, AWS Managed Services, Internal Audit and risk teams. 
 
-Oh, I don't have time for this. I have to go and buy a single piece of fruit with a coupon and then return it, making people wait behind me while I complain. Meh. So, how 'bout them Knicks? Also Zoidberg.
+FinTech VP is also one of them. 
 
-1. We need rest. The spirit is willing, but the flesh is spongy and bruised.
-2. Fry, we have a crate to deliver.
-3. Have you ever tried just turning off the TV, sitting down with your children, and hitting them?
+
+
+### Problem Statement
+
+What does GRC do?
+
+GRC is a structured tool to align IT with business goals while managing risks and meeting all industry and government compliance requirements.
+
+What is the project need?
+
+Over 10 years, Amazon has been using GRC 1.0 which looks like this:
+![]({{ site.baseurl }}/images/OldGRC.jpg)
+*Click to enlarge*
+The biggest puzzles missing here include but not limited to:
+
+
 
 ### Design: Humans Are Romantic
 
