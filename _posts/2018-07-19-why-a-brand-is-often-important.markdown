@@ -41,14 +41,25 @@ Long story short, GRC 1.0 is nothing more than a recording tool of users' person
 
 ### Research: No One Knows It All.
 
-Since the scope of GRC is extremely broad, which covers both internal and external audit flows, we soon noticed that every user of the system can only provide a small piece of puzzle, while the UX designer(Kira) has to build the structure based on the comprehensive understanding of all the flows. Based on this finding, the leadership made a business decision to start with GFRC(Global Financial Risk Controls) team and After:
+The scope of GRC is extremely broad, which covers both internal and external risks and auditing flows. Not too surprisingly, we soon found out: no one knows it all-most users only interact with a small part of GRC, and no teammate (PM or SDE) has the comprehensive understanding of all the user flows. Based on this finding, we decided to divide and conquer. Our plan pivoted to: start with one customer-GFRC(Global Financial Risk Controls) team on their financial auditing flow, and then spread the success and scope to other users.
 
+After:
 <ul>
 <li>30 hours of interviews</li>
 <li>10+ interviewees </li>
-<li>3 weeks of research</li>
+<li>4 weeks of research</li>
 <li>2 Rounds of workshops with customers </li>
 </ul>
+We were able to map out 4 user journeys for main personas:
+
+![]({{ site.baseurl }}/images/ownerflow.jpg)
+*Owner Persona*
+![]({{ site.baseurl }}/images/approverflow.jpg)
+*Owner Persona*
+![]({{ site.baseurl }}/images/auditorflow.jpg)
+*Owner Persona*
+![]({{ site.baseurl }}/images/creatorflow.jpg)
+*Owner Persona*
 
 ![]({{ site.baseurl }}/images/GRCMoodboard.jpg)
 *Click to enlarge*
