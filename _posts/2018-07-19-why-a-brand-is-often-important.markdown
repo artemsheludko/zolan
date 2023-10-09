@@ -86,7 +86,7 @@ This wish list helped me quickly map out the IA and wireframes:
 
 Since stakeholders were deeply involved in the co-creating process, they were able to understand the IA map and wireframes easily, and had the confidence that their needs are well heard and received.
 
-### Design: Commit to the hard part - Risk Library
+### Design: Commit to the hardest part - Risk Library
 
 At this point, it's hard to ignore the elephant in the room: risk.
 
@@ -97,16 +97,37 @@ Surprise!
 
 ##### Why risk library is super hard to build 
 
-To successfully run a risk library, we will need:
-* The permission to 10+ risk themes (confidential to every company)
-* A standardized risk metrics that can be shared across company and applied to any risk. (info security, natural disaster, financial risk, etc.)
-* A risk management team who audits all the risks description and how they are connected to   
+After another 2 rounds of research workshops with risk managers, we found out the required conditions to successfully run a workshop are:
+* The access to 10+ risk themes (confidential to every company).
+* A standardized risk metrics that can be shared across company and applied to any risk (info security, natural disaster, financial risk, you name it.).
+* Regular updates to all the risk themes and sub-categories (3 layers, hundreds of categories in total).
+* A risk management team who audits all the risk descriptions and how they are connected to risk themes.
+
+Even after the library is built, users will need the following to make it useful:
+* Knowledge of all the risk themes and sub-categories to connect their own risks to;
+* knowledge of risk metrics, and the objective judgement on risk ratings;
+* connecting all the related processes/applications/controls to a risk.
+
+##### How can GRC 2 benefit from a risk library?
+
+Despite the challenges we would face while building a risk library, the library will become a game-changer to GRC once built.  
+I visualized the benefit with the concept design as following:
+
+![]({{ site.baseurl }}/images/GRCdashboard.jpg)
+
+![]({{ site.baseurl }}/images/RiskList.jpg)
+
+As shown above, GRC 2 users will be able to:
+* get an aggregated view on risk score/review status, instead of having to track down single risks/reviews. 
+* easily map and categorize all their risks, and deal with them based on priority level and ratings.
+* find all the controls related to risks, which could help remediate them. 
+* find out all the processes and apps risks live in, and flag them based on risk level.
+
+This conclusion and visualized concept motivated our stakeholders to expand the business scope to the building a risk library, and adding it to the GRC network.
 
 ### Develop: Heads in Clouds, Feet on the Ground
 
-You, a bobsleder!? That I'd like to see! No! The kind with looting and maybe starting a few fires! Good news, everyone! There's a report on TV with some very bad news! When I was first asked to make a film about my nephew, Hubert Farnsworth, I thought "Why should I?" Then later, Leela made the film. But if I did make it, you can bet there would have been more topless women on motorcycles. Roll film!
 
-Eeeee! Now say "nuclear wessels"! Why did you bring us here? Yeah, and if you were the pope they'd be all, "Straighten your pope hat." And "Put on your good vestments." That's the ONLY thing about being a slave.
 
 ### Wins
 
