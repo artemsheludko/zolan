@@ -1,0 +1,100 @@
+I"�<h3 id="project-scope">Project Scope</h3>
+
+<p>GRC 2(Governance, Risk and Compliance) is the 1st and the only risk management tool in Amazon, with all 1,541,000 employees as its potential users.</p>
+
+<p>GRC 2’s existing users include Global Financial Risk Controls (GFRC) team, policy creators and owners across Amazon, CDO Infosec, AWS Security, AWS Managed Services, Internal Audit and risk teams.</p>
+
+<p>Amazon leadership (VP and directors) also rely heavily on GRC 2 to do periodicly reviews.</p>
+
+<p>My Role: the only designer and lead researcher of the project.</p>
+
+<h3 id="problem-statement">Problem Statement</h3>
+
+<h5 id="what-does-grc-do">What does GRC do?</h5>
+
+<p>GRC is a structured tool to align IT with business goals while managing risks and meeting all industry and government compliance requirements.</p>
+
+<h5 id="what-is-the-user-need">What is the user need?</h5>
+
+<p>Over 10 years, Amazonians have been using GRC 1.0 which looks like this:
+<img src="/portfolio2023.github.io/images/OldGRC.jpg" alt="" />
+<em>Click to enlarge</em></p>
+
+<p>The biggest problems here include but not limited to:</p>
+<ul>
+<li>No visibility on the aggregated status of users' personal items (processes/applications/controls/reviews/...) in GRC.</li>
+<li>No risk library, which is the reason why controls exists. </li>
+<li>UI is tech-heavy, and not friendly to non-tech users (including leadership). </li>
+</ul>
+
+<p>Long story short, GRC 1.0 is nothing more than a recording tool of users’ personal items, and cannot provide extra insights/convenience.</p>
+
+<h3 id="research-no-one-knows-it-all">Research: No One Knows It All.</h3>
+
+<p>The scope of GRC is extremely broad, which covers both internal and external risks and auditing flows. Not too surprisingly, we soon found out: no one knows it all-most users only interact with a small part of GRC, and no teammate (PM or SDE) has the comprehensive understanding of all the user flows. Based on this finding, we decided to divide and conquer. Our plan pivoted to: start with one customer-GFRC(Global Financial Risk Controls) team on their financial auditing flow, and then spread the success and scope to other users.</p>
+
+<p>After:</p>
+<ul>
+  <li>30 hours of interviews</li>
+  <li>10+ interviewees</li>
+  <li>4 weeks of research</li>
+  <li>2 Rounds of workshops with customers</li>
+</ul>
+
+<p>We were able to map out 4 user journeys for main personas:</p>
+
+<p><img src="/portfolio2023.github.io/images/ownerflow.jpg" alt="" /></p>
+
+<p><img src="/portfolio2023.github.io/images/approverflow.jpg" alt="" /></p>
+
+<p><img src="/portfolio2023.github.io/images/auditorflow.jpg" alt="" /></p>
+
+<p><img src="/portfolio2023.github.io/images/creatorflow.jpg" alt="" /></p>
+
+<p>Based on these flow, we were able to move to the design phase.</p>
+
+<h3 id="design-enterprise-app-is-boringbut-it-doesnt-have-to-be">Design: Enterprise app is boring…but it doesn’t have to be.</h3>
+
+<p>With the user flows in mind, it’s fairly easy to map out the IA map…but, wait.</p>
+
+<p>Before heading into the rational work and narrowing down the scope, I wanted to get everyone in the room (teammates and customers) excited, so I collected competitors in the same field and company to collect stakeholders’ comments on what they like vs. not.</p>
+
+<p><img src="/portfolio2023.github.io/images/GRCMoodboard.jpg" alt="" />
+<em>Moodboard</em></p>
+
+<p>This practice allowed our stakeholders to think with their creative and emotional minds, and treat the app users as human on top of personas.
+The wish list we collected include:</p>
+<ul>
+  <li>Customers want a clear conclusion (“Am I at risk or not?”) at the first glance.</li>
+  <li>Customers like clean color palette (but not too serious).</li>
+  <li>Timeline view will help the leadership and admins, on the visibility of their teams and scopes.</li>
+</ul>
+
+<p>This wish list help me quickly mapped out the IA and wireframes:
+<img src="/portfolio2023.github.io/images/GRCIAmap.jpg" alt="" />
+<em>IA map</em>
+<img src="/portfolio2023.github.io/images/Dashboardwire.jpg" alt="" />
+<em>IA map</em></p>
+
+<p>Ummm…to eBay? But I know you in the future. I cleaned your poop. I’m just glad my fat, ugly mama isn’t alive to see this day. My fellow Earthicans, as I have explained in my book ‘Earth in the Balance’’, and the much more popular ‘‘Harry Potter and the Balance of Earth’, we need to defend our planet against pollution. Also dark wizards.</p>
+
+<p>Your best is an idiot! Fry, you can’t just sit here in the dark listening to classical music. And remember, don’t do anything that affects anything, unless it turns out you were supposed to, in which case, for the love of God, don’t not do it!</p>
+
+<p>You, a bobsleder!? That I’d like to see! I’m Santa Claus! There’s no part of that sentence I didn’t like! Noooooo! I can explain. It’s very valuable.</p>
+
+<p>I’m Santa Claus! Is the Space Pope reptilian!? Who’s brave enough to fly into something we all keep calling a death sphere? I had more, but you go ahead.</p>
+
+<p>It doesn’t look so shiny to me. Kif might! You guys aren’t Santa! You’re not even robots. How dare you lie in front of Jesus? Oh, but you can. But you may have to metaphorically make a deal with the devil. And by “devil”, I mean Robot Devil. And by “metaphorically”, I mean get your coat.</p>
+
+<p>Check it out, y’all. Everyone who was invited is here. Anyone who laughs is a communist! You’re going to do his laundry? Michelle, I don’t regret this, but I both rue and lament it.</p>
+
+<p>Bender, we’re trying our best. I daresay that Fry has discovered the smelliest object in the known universe! Oh, you’re a dollar naughtier than most. Hi, I’m a naughty nurse, and I really need someone to talk to. $9.95 a minute.</p>
+
+<h3 id="develop-heads-in-clouds-feet-on-the-ground">Develop: Heads in Clouds, Feet on the Ground</h3>
+
+<p>You, a bobsleder!? That I’d like to see! No! The kind with looting and maybe starting a few fires! Good news, everyone! There’s a report on TV with some very bad news! When I was first asked to make a film about my nephew, Hubert Farnsworth, I thought “Why should I?” Then later, Leela made the film. But if I did make it, you can bet there would have been more topless women on motorcycles. Roll film!</p>
+
+<p>Eeeee! Now say “nuclear wessels”! Why did you bring us here? Yeah, and if you were the pope they’d be all, “Straighten your pope hat.” And “Put on your good vestments.” That’s the ONLY thing about being a slave.</p>
+
+<h3 id="wins">Wins</h3>
+:ET

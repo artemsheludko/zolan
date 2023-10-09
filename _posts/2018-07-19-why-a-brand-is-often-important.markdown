@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  GRC 2 running title
+title:  GRC 2 - Left or Right Brain?
 date:   2023-07-19 15:01:35 +0300
 image:  03.jpg
 tags:   WebDesign
@@ -39,56 +39,68 @@ The biggest problems here include but not limited to:
 Long story short, GRC 1.0 is nothing more than a recording tool of users' personal items, and cannot provide extra insights/convenience.
 
 
-### Research: No One Knows It All.
+### Research: No one knows it all.
 
 The scope of GRC is extremely broad, which covers both internal and external risks and auditing flows. Not too surprisingly, we soon found out: no one knows it all-most users only interact with a small part of GRC, and no teammate (PM or SDE) has the comprehensive understanding of all the user flows. Based on this finding, we decided to divide and conquer. Our plan pivoted to: start with one customer-GFRC(Global Financial Risk Controls) team on their financial auditing flow, and then spread the success and scope to other users.
 
 After:
-<ul>
-<li>30 hours of interviews</li>
-<li>10+ interviewees </li>
-<li>4 weeks of research</li>
-<li>2 Rounds of workshops with customers </li>
-</ul>
+* 30 hours of interviews
+* 10+ interviewees
+* 4 weeks of research
+* 2 Rounds of workshops with customers 
+
 We were able to map out 4 user journeys for main personas:
 
 ![]({{ site.baseurl }}/images/ownerflow.jpg)
-*Owner Persona*
+
 ![]({{ site.baseurl }}/images/approverflow.jpg)
-*Owner Persona*
+
 ![]({{ site.baseurl }}/images/auditorflow.jpg)
-*Owner Persona*
+
 ![]({{ site.baseurl }}/images/creatorflow.jpg)
-*Owner Persona*
+
+Based on these flow, we were able to move to the design phase.
+
+
+### Design: Enterprise app is boring...but it doesn't have to be.
+
+With the user flows in mind, it's fairly easy to map out the IA map...but, wait.
+
+Before heading into the rational work and narrowing down the scope, I wanted to get everyone in the room (teammates and customers) excited, so I collected competitors in the same field and company to collect stakeholders' comments on what they like vs. not.
 
 ![]({{ site.baseurl }}/images/GRCMoodboard.jpg)
-*Click to enlarge*
-Nay, I respect and admire Harold Zoid too much to beat him to death with his own Oscar. I don't 'need' to drink. I can quit anytime I want! Soothe us with sweet lies. Bender?! You stole the atom. You don't know how to do any of those.
+*Moodboard*
 
-* Shinier than yours, meatbag.
-* This is the worst part. The calm before the battle.
-* Ooh, name it after me!
+This practice allowed our stakeholders to think with their creative and emotional minds, and treat the app users as human on top of personas.
+The wish list we collected include:
+* Customers want a clear conclusion ("Am I at risk or not?") at the first glance.
+* Customers like clean color palette (but not too serious).
+* Timeline view will help the leadership and admins, on the visibility of their teams and scopes.
 
-Say what? Throw her in the brig. Hey, you add a one and two zeros to that or we walk! You guys aren't Santa! You're not even robots. How dare you lie in front of Jesus? Ow, my spirit! Who's brave enough to fly into something we all keep calling a death sphere?
+This wish list helped me quickly map out the IA and wireframes:
 
-Hey, you add a one and two zeros to that or we walk! You won't have time for sleeping, soldier, not with all the bed making you'll be doing. It's okay, Bender. I like cooking too. Hey, what kinda party is this? There's no booze and only one hooker.
+ <div class="row">
+  <div class="column left"><img src="{{ site.baseurl }}/images/GRCIAmap.jpg" alt="IA Map"></div>
+  <div class="column right"><img src="{{ site.baseurl }}/images/Dashboardwire.jpg" alt="Dashboard Wireframe"></div>
+</div> 
 
-![]({{ site.baseurl }}/images/07.jpg)
-*Minimalism*
+Since stakeholders were deeply involved in the co-creating process, they were able to understand the IA map and wireframes easily, and had the confidence that their needs are well heard and received.
 
-Ummm…to eBay? But I know you in the future. I cleaned your poop. I'm just glad my fat, ugly mama isn't alive to see this day. My fellow Earthicans, as I have explained in my book 'Earth in the Balance'', and the much more popular ''Harry Potter and the Balance of Earth', we need to defend our planet against pollution. Also dark wizards.
+### Design: Commit to the hard part - Risk Library
 
-Your best is an idiot! Fry, you can't just sit here in the dark listening to classical music. And remember, don't do anything that affects anything, unless it turns out you were supposed to, in which case, for the love of God, don't not do it!
+At this point, it's hard to ignore the elephant in the room: risk.
 
-You, a bobsleder!? That I'd like to see! I'm Santa Claus! There's no part of that sentence I didn't like! Noooooo! I can explain. It's very valuable.
+Risk is the reason why controls exist, why controls need periodic reviews, and lives in all the processes and applications. 
+However, no one has successfully built any risk library in Amazon since it's founded. 
 
-I'm Santa Claus! Is the Space Pope reptilian!? Who's brave enough to fly into something we all keep calling a death sphere? I had more, but you go ahead.
+Surprise!
 
-It doesn't look so shiny to me. Kif might! You guys aren't Santa! You're not even robots. How dare you lie in front of Jesus? Oh, but you can. But you may have to metaphorically make a deal with the devil. And by "devil", I mean Robot Devil. And by "metaphorically", I mean get your coat.
+##### Why risk library is super hard to build 
 
-Check it out, y'all. Everyone who was invited is here. Anyone who laughs is a communist! You're going to do his laundry? Michelle, I don't regret this, but I both rue and lament it.
-
-Bender, we're trying our best. I daresay that Fry has discovered the smelliest object in the known universe! Oh, you're a dollar naughtier than most. Hi, I'm a naughty nurse, and I really need someone to talk to. $9.95 a minute.
+To successfully run a risk library, we will need:
+* The permission to 10+ risk themes (confidential to every company)
+* A standardized risk metrics that can be shared across company and applied to any risk. (info security, natural disaster, financial risk, etc.)
+* A risk management team who audits all the risks description and how they are connected to   
 
 ### Develop: Heads in Clouds, Feet on the Ground
 
@@ -97,3 +109,5 @@ You, a bobsleder!? That I'd like to see! No! The kind with looting and maybe sta
 Eeeee! Now say "nuclear wessels"! Why did you bring us here? Yeah, and if you were the pope they'd be all, "Straighten your pope hat." And "Put on your good vestments." That's the ONLY thing about being a slave.
 
 ### Wins
+
+The biggest challenge for GRC has always been finding the simple solution/output 

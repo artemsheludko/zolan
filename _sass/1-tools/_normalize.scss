@@ -339,3 +339,20 @@ template {
 [hidden] {
   display: none;
 }
+
+
+/* Columns by Kira
+   ========================================================================== */
+
+
+   .column {
+    float: left;
+  }
+  
+  .left {
+    width: 50%;
+  }
+  
+  .right {
+    width: 50%;
+  }
