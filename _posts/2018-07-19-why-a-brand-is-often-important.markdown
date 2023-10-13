@@ -7,21 +7,28 @@ tags:   WebDesign
 ---
 ### Project Scope
 
-GRC 2(Governance, Risk and Compliance) is the 1st and the only risk management tool in Amazon, with all 1,541,000 employees as its potential users.
+GRC 2(Governance, Risk and Compliance) is the 1st and the only risk management tool (+link) in Amazon, with all 1,541,000 employees as its potential users.
 
-GRC 2's existing users include Global Financial Risk Controls (GFRC) team, policy creators and owners across Amazon, CDO Infosec, AWS Security, AWS Managed Services, Internal Audit and risk teams. 
+GRC 2 is currently supporting Global Financial Risk Controls (GFRC) team, policy creators and owners across Amazon, CDO Infosec, AWS Security, AWS Managed Services, Internal Audit and risk teams. 
 
 Amazon leadership (VP and directors) also rely heavily on GRC 2 to do periodicly reviews.
 
-My Role: the only designer and lead researcher of the project.
+My Role: lead designer and researcher of the project.
 
+### Context
 
++ Storyboard
 
 ### Problem Statement
 
 ##### What does GRC do?
 
-GRC is a structured tool to align IT with business goals while managing risks and meeting all industry and government compliance requirements.
+GRC is a structured tool to align IT with business goals while managing <strong>risks</strong> and meeting all industry and government <strong>compliance</strong> requirements.
+
+(Risk: natural disaster, info leak, manual errors, or any risks in the world.
+
+Compliance: the act of following rules, laws, and regulations. It applies to legal and regulatory requirements set by industrial bodies and also for internal corporate policies.)
+
 
 ##### What is the user need?
 
