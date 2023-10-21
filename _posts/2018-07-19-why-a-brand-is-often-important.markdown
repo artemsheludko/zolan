@@ -17,7 +17,8 @@ My Role: lead designer and researcher of the project.
 
 ### Context
 
-+ Storyboard
+![]({{ site.baseurl }}/images/grcstoryboard.jpeg)
+*Moodboard*
 
 ### Problem Statement
 
