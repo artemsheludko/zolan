@@ -17,8 +17,9 @@ My Role: lead designer and researcher of the project.
 
 ### Context
 
+This storyboard can help you understand the context and terminology.
 ![]({{ site.baseurl }}/images/grcstoryboard.jpeg)
-*Moodboard*
+*Terminology*
 
 ### Problem Statement
 
