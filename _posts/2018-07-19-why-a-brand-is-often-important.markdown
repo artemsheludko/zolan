@@ -21,6 +21,17 @@ This storyboard can help you understand the context and terminology.
 ![]({{ site.baseurl }}/images/grcstoryboard.jpeg)
 *Terminology*
 
+Business entity: restaurant
+
+Process & application: cooking
+
+Risk: fire
+
+Control: fire alarm, emergency exit
+
+Compliance: government standards
+
+Review: Periodically check
 ### Problem Statement
 
 ##### What does GRC do?
