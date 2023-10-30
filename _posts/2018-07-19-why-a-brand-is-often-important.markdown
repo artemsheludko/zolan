@@ -21,29 +21,24 @@ This storyboard can help you understand the context and terminology.
 ![]({{ site.baseurl }}/images/grcstoryboard.jpeg)
 *Terminology*
 
-Business entity: restaurant
+In this case, 
 
-Process & application: cooking
+<strong>Business entity:</strong> restaurant
 
-Risk: fire
+<strong>Process & application:</strong> cooking
 
-Control: fire alarm, emergency exit
+<strong>Risk:</strong> fire
 
-Compliance: government standards
+<strong>Control:</strong> fire alarm, emergency exits
 
-Review: Periodically check
+<strong>Compliance:</strong> government standards
+
+<strong>Review:</strong> Periodically check of control effectiveness
+
+And <strong>GRC</strong> is the tool that monitors and manages the risks and compliance of processes in a business entity.
+
 ### Problem Statement
 
-##### What does GRC do?
-
-GRC is a structured tool to align IT with business goals while managing <strong>risks</strong> and meeting all industry and government <strong>compliance</strong> requirements.
-
-(Risk: natural disaster, info leak, manual errors, or any risks in the world.
-
-Compliance: the act of following rules, laws, and regulations. It applies to legal and regulatory requirements set by industrial bodies and also for internal corporate policies.)
-
-
-##### What is the user need?
 
 Over 10 years, Amazonians have been using GRC 1.0 which looks like this:
 ![]({{ site.baseurl }}/images/OldGRC.jpg)
