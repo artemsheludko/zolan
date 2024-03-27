@@ -23,7 +23,7 @@ bundle exec jekyll serve
 ### 远程预览更改
 
 * 更改提交以后会经过Build And Deploy的过程，在页面 https://github.com/kardplayer/portfolio2023.github.io/actions 可以看到进展。等图标绿了以后，就生效了。
-* 你的远程网站地址是https://kardplayer.github.io/portfolio2023.github.io/ 它在Setting -> Pages 里也可以找到。
+* 远程网站地址是https://kardplayer.github.io/portfolio2023.github.io/ 它在Setting -> Pages 里也可以找到。
 
 
 ### 怎么添加 Post
