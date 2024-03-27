@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Samsung devices make life easier for epileptics
+title:  Risk Management
 date:   2018-08-17 15:01:35 +0300
 image:  04.jpg
 tags:   Life
