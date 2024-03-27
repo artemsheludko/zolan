@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Risk Management
-date:   2018-08-17 15:01:35 +0300
+date:   2024-04-17 15:01:35 +0300
 image:  04.jpg
 tags:   Life
 ---
